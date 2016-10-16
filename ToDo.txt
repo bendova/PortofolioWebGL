@@ -1,0 +1,15 @@
+====Things to do for the Portofolio====
+//1. Export the 2D scene from Unity to Babylon.
+//2. Create a WebApp for the Portofolio
+3. Render the player character.
+4. Add player movement and camera follow.
+
+	
+Albu:
+1. Add background animations to liven things up.
+2. Add the 3 triggers for the portofolio categories:
+	2.1 UI
+	2.2 Yacht skins
+	2.3 Personal projects
+3. Update the owl animation
+4. Create the textures for the portofolio grid
