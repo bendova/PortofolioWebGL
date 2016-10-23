@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-[ExecuteInEditMode]
+//[ExecuteInEditMode]
 public class ParallaxLayer : MonoBehaviour {
 	public float speedX;
 	public float speedY;

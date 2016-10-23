@@ -81,8 +81,11 @@
     <Compile Include="Assets\Scripts\InputUtils.cs" />
     <Compile Include="Assets\Scripts\InteractionTrigger.cs" />
     <Compile Include="Assets\Scripts\LampHoverAnim.cs" />
+    <Compile Include="Assets\Scripts\MouseParallaxEffect.cs" />
+    <Compile Include="Assets\Scripts\MouseParallaxLayer.cs" />
     <Compile Include="Assets\Scripts\ParallaxLayer.cs" />
     <Compile Include="Assets\Scripts\ParallaxOption.cs" />
+    <Compile Include="Assets\Scripts\PortofolioShowcaseController.cs" />
     <Compile Include="Assets\Scripts\SceneIds.cs" />
     <Compile Include="Assets\Scripts\Tags.cs" />
     <Compile Include="Assets\Scripts\VideoPlayer.cs" />

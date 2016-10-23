@@ -6,6 +6,9 @@ public class CharController : MonoBehaviour
 {
 	public float m_maxSpeed = 10f;
     public BoxCollider2D m_worldBounds;
+    public bool m_enableInputHandling = true;
+    public bool m_scriptedMoveLeft = false;
+    public bool m_scriptedMoveRight = false;
 
     public FacingDirection PlayerDirection
     {
@@ -36,11 +39,29 @@ public class CharController : MonoBehaviour
 
 	void FixedUpdate () 
 	{
-		float moveH = Input.GetAxis("Horizontal");
+		float moveH = CalculateMoveH();
         MoveChar(moveH);
         UpdatePlayerDirection(moveH);
         UpdateLookUp();
         UpdateRendererOrientation();
+    }
+
+    private float CalculateMoveH()
+    {
+        float moveH = 0.0f;
+        if (m_enableInputHandling)
+        {
+            moveH = Input.GetAxis("Horizontal");
+        }
+        else if(m_scriptedMoveLeft)
+        {
+            moveH = -1.0f;
+        }
+        else if(m_scriptedMoveRight)
+        {
+            moveH = 1.0f;
+        }
+        return moveH;
     }
 
     private void MoveChar(float moveH)

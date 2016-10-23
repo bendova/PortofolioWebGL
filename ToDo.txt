@@ -1,8 +1,11 @@
 ====Things to do for the Portofolio====
-//1. Export the 2D scene from Unity to Babylon.
-//2. Create a WebApp for the Portofolio
-3. Render the player character.
-4. Add player movement and camera follow.
+//1. Create a video player that works on WebGL and in Editor.
+//2. Create a simple portofolio grid. We will add the art, animations and content later.
+//3. Add a simple parallax effect to the world layers in the Game scene.
+//4. Make the Landing page work.
+5. Add the portofolio grid to the landing page.
+//6. Add a mouse parallax effect to the landing page. This still needs work.
+7. Made the cv.pdf openable from the landing page.
 
 	
 Albu:
