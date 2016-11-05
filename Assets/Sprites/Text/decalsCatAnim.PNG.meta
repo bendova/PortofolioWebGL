@@ -1,0 +1,283 @@
+fileFormatVersion: 2
+guid: c7e4e15a43c28cb46aa2f1207192d666
+timeCreated: 1477819918
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: decalsCatAnim_0
+    21300002: decalsCatAnim_1
+    21300004: decalsCatAnim_2
+    21300006: decalsCatAnim_3
+    21300008: decalsCatAnim_4
+    21300010: decalsCatAnim_5
+    21300012: decalsCatAnim_6
+    21300014: decalsCatAnim_7
+    21300016: decalsCatAnim_8
+    21300018: decalsCatAnim_9
+    21300020: decalsCatAnim_10
+    21300022: decalsCatAnim_11
+    21300024: decalsCatAnim_12
+    21300026: decalsCatAnim_13
+    21300028: decalsCatAnim_14
+    21300030: decalsCatAnim_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 140
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: decalsCatAnim_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 140
+        height: 240
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: decalsCatAnim_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1200
+        width: 140
+        height: 240
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: decalsCatAnim_2
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1200
+        width: 140
+        height: 240
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: decalsCatAnim_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 140
+        height: 240
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: decalsCatAnim_4
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 960
+        width: 140
+        height: 240
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: decalsCatAnim_5
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 960
+        width: 140
+        height: 240
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: decalsCatAnim_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 140
+        height: 240
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: decalsCatAnim_7
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 720
+        width: 140
+        height: 240
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: decalsCatAnim_8
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 720
+        width: 140
+        height: 240
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: decalsCatAnim_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 140
+        height: 240
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: decalsCatAnim_10
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 480
+        width: 140
+        height: 240
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: decalsCatAnim_11
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 480
+        width: 140
+        height: 240
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: decalsCatAnim_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 140
+        height: 240
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: decalsCatAnim_13
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 240
+        width: 140
+        height: 240
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: decalsCatAnim_14
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 240
+        width: 140
+        height: 240
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: decalsCatAnim_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 140
+        height: 240
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

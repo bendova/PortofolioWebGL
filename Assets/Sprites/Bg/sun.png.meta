@@ -28,7 +28,7 @@ TextureImporter:
   cubemapConvolutionSteps: 7
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
@@ -46,13 +46,16 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 120
+  spritePixelsToUnits: 140
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: sun_0
+    - serializedVersion: 2
+      name: sun_0
       rect:
         serializedVersion: 2
         x: 42
@@ -62,39 +65,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 126.5, y: -101.5}
-        - {x: 137.5, y: -84.5}
-        - {x: 154.5, y: -52.5}
-        - {x: 158.5, y: -30.5}
-        - {x: 158.5, y: 31.5}
-        - {x: 152.5, y: 57.5}
-        - {x: 139.5, y: 82.5}
-        - {x: 123.5, y: 103.5}
-        - {x: 104.5, y: 124.5}
-        - {x: 63.5, y: 151.5}
-        - {x: 33.5, y: 158.5}
-        - {x: -37.5, y: 158.5}
-        - {x: -57.5, y: 151.5}
-        - {x: -80.5, y: 140.5}
-        - {x: -103.5, y: 124.5}
-        - {x: -131.5, y: 94.5}
-        - {x: -138.5, y: 82.5}
-        - {x: -152.5, y: 57.5}
-        - {x: -158.5, y: 33.5}
-        - {x: -158.5, y: -38.5}
-        - {x: -148.5, y: -65.5}
-        - {x: -132.5, y: -93.5}
-        - {x: -108.5, y: -120.5}
-        - {x: -84.5, y: -137.5}
-        - {x: -65.5, y: -148.5}
-        - {x: -38.5, y: -157.5}
-        - {x: -32.5, y: -158.5}
-        - {x: 32.5, y: -158.5}
-        - {x: 46.5, y: -155.5}
-        - {x: 79.5, y: -141.5}
-        - {x: 101.5, y: -126.5}
-    - name: sun_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sun_1
       rect:
         serializedVersion: 2
         x: 442
@@ -104,37 +78,8 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 126.5, y: -101.5}
-        - {x: 148.5, y: -67.5}
-        - {x: 158.5, y: -35.5}
-        - {x: 158.5, y: 26.5}
-        - {x: 155.5, y: 45.5}
-        - {x: 144.5, y: 73.5}
-        - {x: 124.5, y: 103.5}
-        - {x: 94.5, y: 131.5}
-        - {x: 80.5, y: 140.5}
-        - {x: 48.5, y: 154.5}
-        - {x: 33.5, y: 158.5}
-        - {x: -36.5, y: 158.5}
-        - {x: -48.5, y: 156.5}
-        - {x: -95.5, y: 132.5}
-        - {x: -132.5, y: 95.5}
-        - {x: -152.5, y: 57.5}
-        - {x: -158.5, y: 33.5}
-        - {x: -158.5, y: -38.5}
-        - {x: -150.5, y: -60.5}
-        - {x: -141.5, y: -79.5}
-        - {x: -126.5, y: -101.5}
-        - {x: -108.5, y: -119.5}
-        - {x: -84.5, y: -137.5}
-        - {x: -65.5, y: -148.5}
-        - {x: -38.5, y: -157.5}
-        - {x: -32.5, y: -158.5}
-        - {x: 32.5, y: -158.5}
-        - {x: 46.5, y: -155.5}
-        - {x: 79.5, y: -141.5}
-        - {x: 101.5, y: -126.5}
+      outline: []
+      tessellationDetail: -1
     outline: []
   spritePackingTag: 
   userData: 

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 5a2faf10f846fad4fbc0ee43720dce66
-timeCreated: 1466347666
+timeCreated: 1478353395
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -26,7 +26,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -46,108 +46,139 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 120
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: lamp_0
+    - serializedVersion: 2
+      name: lamp_0
       rect:
         serializedVersion: 2
         x: 0
         y: 1398
         width: 650
         height: 650
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: lamp_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lamp_1
       rect:
         serializedVersion: 2
         x: 654
         y: 1398
         width: 650
         height: 650
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: lamp_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lamp_2
       rect:
         serializedVersion: 2
         x: 1300
         y: 1398
         width: 650
         height: 650
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: lamp_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lamp_3
       rect:
         serializedVersion: 2
         x: 0
         y: 748
         width: 650
         height: 650
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: lamp_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lamp_4
       rect:
         serializedVersion: 2
         x: 650
         y: 748
         width: 650
         height: 650
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: lamp_5
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lamp_5
       rect:
         serializedVersion: 2
         x: 1300
         y: 748
         width: 650
         height: 650
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: lamp_6
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lamp_6
       rect:
         serializedVersion: 2
         x: 0
         y: 98
         width: 650
         height: 650
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: lamp_7
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lamp_7
       rect:
         serializedVersion: 2
         x: 650
         y: 98
         width: 650
         height: 650
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: lamp_8
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lamp_8
       rect:
         serializedVersion: 2
         x: 1300
         y: 98
         width: 650
         height: 650
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

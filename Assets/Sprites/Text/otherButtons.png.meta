@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 5d5a1bbb266cbac448891ab1211ffa38
-timeCreated: 1476616659
+timeCreated: 1477740670
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -8,6 +8,9 @@ TextureImporter:
     21300002: otherButtons_1
     21300004: otherButtons_2
     21300006: otherButtons_3
+    21300008: otherButtons_4
+    21300010: otherButtons_5
+    21300012: otherButtons_6
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -48,95 +51,92 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 120
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: otherButtons_0
+    - serializedVersion: 2
+      name: otherButtons_0
       rect:
         serializedVersion: 2
-        x: 59
-        y: 360
-        width: 150
-        height: 163
+        x: 69
+        y: 689
+        width: 142
+        height: 129
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -60, y: 34.5}
-        - {x: -60, y: -42.5}
-        - {x: -59, y: -49.5}
-        - {x: 38, y: -49.5}
-        - {x: 48, y: -32.5}
-        - {x: 48, y: 45.5}
-        - {x: -29, y: 45.5}
-        - {x: -58, y: 41.5}
-    - name: otherButtons_1
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: otherButtons_1
       rect:
         serializedVersion: 2
-        x: 249
-        y: 360
-        width: 150
-        height: 164
+        x: 262
+        y: 689
+        width: 142
+        height: 129
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -45, y: 64}
-        - {x: -58, y: 62}
-        - {x: -74, y: 52}
-        - {x: -74, y: -69}
-        - {x: 58, y: -69}
-        - {x: 72, y: -51}
-        - {x: 72, y: 53}
-        - {x: 69, y: 64}
-    - name: otherButtons_2
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: otherButtons_3
       rect:
         serializedVersion: 2
-        x: 72
-        y: 205
-        width: 316
-        height: 130
+        x: 94
+        y: 518
+        width: 296
+        height: 129
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -121, y: 40}
-        - {x: -127, y: 34}
-        - {x: -130, y: 24}
-        - {x: -130, y: -42}
-        - {x: -129, y: -47}
-        - {x: 117, y: -47}
-        - {x: 132, y: -42}
-        - {x: 132, y: 48}
-        - {x: -45, y: 48}
-        - {x: -64, y: 47}
-    - name: otherButtons_3
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: otherButtons_4
       rect:
         serializedVersion: 2
-        x: 72
-        y: 42
-        width: 316
-        height: 130
+        x: 94
+        y: 357
+        width: 296
+        height: 129
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 143, y: 65}
-        - {x: -42, y: 65}
-        - {x: -83, y: 64}
-        - {x: -118, y: 62}
-        - {x: -142, y: 55}
-        - {x: -148, y: 24}
-        - {x: -148, y: -44}
-        - {x: -137, y: -64}
-        - {x: -131, y: -65}
-        - {x: 130, y: -65}
-        - {x: 151, y: -47}
-        - {x: 152, y: -22}
-        - {x: 152, y: 53}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: otherButtons_5
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 192
+        width: 266
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: otherButtons_6
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 43
+        width: 266
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

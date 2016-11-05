@@ -1,0 +1,213 @@
+fileFormatVersion: 2
+guid: f27638d787b4ceb4181e26afade7e420
+timeCreated: 1477817782
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: personalCatAnim_0
+    21300002: personalCatAnim_1
+    21300004: personalCatAnim_2
+    21300006: personalCatAnim_3
+    21300008: personalCatAnim_4
+    21300010: personalCatAnim_5
+    21300012: personalCatAnim_6
+    21300014: personalCatAnim_7
+    21300016: personalCatAnim_8
+    21300018: personalCatAnim_9
+    21300020: personalCatAnim_10
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 120
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: personalCatAnim_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1479
+        width: 343
+        height: 493
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: personalCatAnim_1
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1479
+        width: 343
+        height: 493
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: personalCatAnim_2
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 1479
+        width: 343
+        height: 493
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: personalCatAnim_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 986
+        width: 343
+        height: 493
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: personalCatAnim_4
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 986
+        width: 343
+        height: 493
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: personalCatAnim_5
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 986
+        width: 343
+        height: 493
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: personalCatAnim_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 493
+        width: 343
+        height: 493
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: personalCatAnim_7
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 493
+        width: 343
+        height: 493
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: personalCatAnim_8
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 493
+        width: 343
+        height: 493
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: personalCatAnim_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 343
+        height: 493
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: personalCatAnim_10
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 0
+        width: 343
+        height: 493
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
