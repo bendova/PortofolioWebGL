@@ -50,11 +50,19 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 170
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  buildTargetSettings:
+  - buildTarget: WebGL
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: birds_0
+    - serializedVersion: 2
+      name: birds_0
       rect:
         serializedVersion: 2
         x: 129
@@ -64,35 +72,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 196, y: -37}
-        - {x: 177, y: 3}
-        - {x: 72, y: 52}
-        - {x: 34, y: 103}
-        - {x: 13, y: 111}
-        - {x: -7, y: 97}
-        - {x: -12, y: 77}
-        - {x: -103, y: 158}
-        - {x: -174, y: 158}
-        - {x: -182, y: 155}
-        - {x: -169, y: 96}
-        - {x: -130, y: 38}
-        - {x: -106, y: 7}
-        - {x: -107, y: -20}
-        - {x: -182, y: -16}
-        - {x: -197, y: -15}
-        - {x: -197, y: -74}
-        - {x: -193, y: -94}
-        - {x: -168, y: -107}
-        - {x: -125, y: -112}
-        - {x: -66, y: -94}
-        - {x: -32, y: -129}
-        - {x: 59, y: -129}
-        - {x: 112, y: -120}
-        - {x: 143, y: -96}
-        - {x: 195, y: -75}
-        - {x: 196, y: -73}
-    - name: birds_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: birds_1
       rect:
         serializedVersion: 2
         x: 742
@@ -102,32 +85,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 78, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 212, y: 71}
-        - {x: 239, y: 72}
-        - {x: 241, y: 72}
-        - {x: 241, y: 87}
-        - {x: 231, y: 125}
-        - {x: 218, y: 142}
-        - {x: 185, y: 145}
-        - {x: 86, y: 145}
-        - {x: 10, y: 130}
-        - {x: -31, y: 115}
-        - {x: -140, y: 130}
-        - {x: -155, y: 121}
-        - {x: -155, y: 84}
-        - {x: -150, y: 65}
-        - {x: -127, y: 38}
-        - {x: -78, y: 31}
-        - {x: -61, y: 16}
-        - {x: -100, y: -50}
-        - {x: -118, y: -110}
-        - {x: -105, y: -114}
-        - {x: -33, y: -114}
-        - {x: 54, y: -34}
-        - {x: 59, y: -52}
-        - {x: 95, y: -67}
-    - name: birds_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: birds_2
       rect:
         serializedVersion: 2
         x: 1445
@@ -137,36 +98,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 131.5, y: 56.5}
-        - {x: 152.5, y: 89.5}
-        - {x: 197.5, y: 105.5}
-        - {x: 198.5, y: 107.5}
-        - {x: 198.5, y: 136.5}
-        - {x: 181.5, y: 175.5}
-        - {x: 141.5, y: 177.5}
-        - {x: 30.5, y: 177.5}
-        - {x: -69.5, y: 151.5}
-        - {x: -174.5, y: 161.5}
-        - {x: -195.5, y: 159.5}
-        - {x: -195.5, y: 93.5}
-        - {x: -157.5, y: 63.5}
-        - {x: -109.5, y: 68.5}
-        - {x: -63.5, y: 81.5}
-        - {x: -103.5, y: -47.5}
-        - {x: -101.5, y: -56.5}
-        - {x: -105.5, y: -78.5}
-        - {x: -109.5, y: -114.5}
-        - {x: -97.5, y: -132.5}
-        - {x: -60.5, y: -156.5}
-        - {x: -2.5, y: -88.5}
-        - {x: -6.5, y: -132.5}
-        - {x: 13.5, y: -168.5}
-        - {x: 26.5, y: -168.5}
-        - {x: 36.5, y: -159.5}
-        - {x: 73.5, y: -90.5}
-        - {x: 123.5, y: 10.5}
-    - name: birds_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: birds_3
       rect:
         serializedVersion: 2
         x: 1393
@@ -176,51 +111,8 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 195, y: -184}
-        - {x: 195, y: -177}
-        - {x: 179, y: -126}
-        - {x: 158, y: -113}
-        - {x: 129, y: -113}
-        - {x: 145, y: -42}
-        - {x: 138, y: 27}
-        - {x: 88, y: 136}
-        - {x: 30, y: 253}
-        - {x: 23, y: 255}
-        - {x: 6, y: 255}
-        - {x: 4, y: 252}
-        - {x: -13, y: 215}
-        - {x: -13, y: 179}
-        - {x: -11, y: 169}
-        - {x: -19, y: 160}
-        - {x: -53, y: 207}
-        - {x: -87, y: 236}
-        - {x: -100, y: 236}
-        - {x: -129, y: 212}
-        - {x: -142, y: 191}
-        - {x: -138, y: 122}
-        - {x: -122, y: 89}
-        - {x: -102, y: 17}
-        - {x: -89, y: -15}
-        - {x: -77, y: -30}
-        - {x: -82, y: -86}
-        - {x: -64, y: -124}
-        - {x: -50, y: -131}
-        - {x: -100, y: -140}
-        - {x: -198, y: -129}
-        - {x: -203, y: -137}
-        - {x: -203, y: -176}
-        - {x: -201, y: -187}
-        - {x: -179, y: -220}
-        - {x: -127, y: -228}
-        - {x: -54, y: -210}
-        - {x: -40, y: -230}
-        - {x: -26, y: -243}
-        - {x: 21, y: -243}
-        - {x: 102, y: -227}
-        - {x: 137, y: -211}
-        - {x: 161, y: -181}
-        - {x: 194, y: -187}
+      outline: []
+      tessellationDetail: -1
     outline: []
   spritePackingTag: 
   userData: 

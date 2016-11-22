@@ -13,7 +13,7 @@ TextureImporter:
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -52,11 +52,19 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 120
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  buildTargetSettings:
+  - buildTarget: WebGL
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: clouds_0
+    - serializedVersion: 2
+      name: clouds_0
       rect:
         serializedVersion: 2
         x: 72
@@ -66,13 +74,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -119, y: 28}
-        - {x: -119, y: -28}
-        - {x: 64, y: -28}
-        - {x: 119, y: -8}
-        - {x: 119, y: 28}
-    - name: clouds_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: clouds_1
       rect:
         serializedVersion: 2
         x: 404
@@ -82,27 +87,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 265.5, y: 12}
-        - {x: 265.5, y: 37}
-        - {x: 205.5, y: 59}
-        - {x: 67.5, y: 51}
-        - {x: 57.5, y: 74}
-        - {x: -28.5, y: 74}
-        - {x: -35.5, y: 73}
-        - {x: -222.5, y: 47}
-        - {x: -265.5, y: 17}
-        - {x: -265.5, y: -7}
-        - {x: -257.5, y: -21}
-        - {x: -142.5, y: -23}
-        - {x: -170.5, y: -44}
-        - {x: -145.5, y: -74}
-        - {x: -47.5, y: -74}
-        - {x: 13.5, y: -60}
-        - {x: 143.5, y: -57}
-        - {x: 161.5, y: -36}
-        - {x: 247.5, y: -3}
-    - name: clouds_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: clouds_2
       rect:
         serializedVersion: 2
         x: 179
@@ -113,7 +101,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: clouds_3
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: clouds_3
       rect:
         serializedVersion: 2
         x: 479
@@ -123,22 +113,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 143.26624, y: -54.16739}
-        - {x: 138.26624, y: -54.16739}
-        - {x: 140.26624, y: -54.16739}
-        - {x: 160.26624, y: -41.16739}
-        - {x: 162.26624, y: -38.16739}
-        - {x: 161.26624, y: -35.16739}
-        - {x: 125.266235, y: -35.16739}
-        - {x: 100.266235, y: -40.16739}
-        - {x: 42.266235, y: -50.16739}
-        - {x: 26.266235, y: -57.16739}
-        - {x: 26.266235, y: -60.16739}
-        - {x: 202.26624, y: -60.16739}
-        - {x: 202.26624, y: -49.16739}
-        - {x: 143.26624, y: -52.16739}
-    - name: clouds_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: clouds_4
       rect:
         serializedVersion: 2
         x: 99
@@ -149,7 +127,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: clouds_5
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: clouds_5
       rect:
         serializedVersion: 2
         x: 708
@@ -160,6 +140,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      tessellationDetail: -1
     outline: []
   spritePackingTag: 
   userData: 

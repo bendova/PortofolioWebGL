@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: b6864a4b650976345938029cfe6241b4
-timeCreated: 1478158599
+timeCreated: 1479768205
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -11,7 +11,7 @@ TextureImporter:
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -52,7 +52,12 @@ TextureImporter:
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  buildTargetSettings:
+  - buildTarget: WebGL
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -60,12 +65,12 @@ TextureImporter:
       name: decalCatAnim_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 504
-        width: 352
-        height: 504
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 4
+        y: 509
+        width: 343
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -73,12 +78,12 @@ TextureImporter:
       name: decalCatAnim_1
       rect:
         serializedVersion: 2
-        x: 352
-        y: 504
-        width: 352
-        height: 504
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 398
+        y: 598
+        width: 301
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -86,12 +91,12 @@ TextureImporter:
       name: decalCatAnim_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 352
-        height: 504
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 88
+        y: 185
+        width: 251
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -99,12 +104,12 @@ TextureImporter:
       name: decalCatAnim_3
       rect:
         serializedVersion: 2
-        x: 352
-        y: 0
-        width: 352
-        height: 504
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 476
+        y: 275
+        width: 205
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

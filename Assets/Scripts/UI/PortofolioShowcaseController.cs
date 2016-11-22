@@ -4,11 +4,7 @@ using System.Collections;
 public class PortofolioShowcaseController : MonoBehaviour
 {
     public Animator m_portofolioAnimator;
-    public categoryPressed m_categoryUI;
-    public categoryPressed m_categoryDecals;
-    public categoryPressed m_categoryPersonal;
-    public categoryPressed m_categoryBackground;
-    public categoryPressed m_categoryThumbnails;
+    public CategoriesGrid m_categoriesGrid;
 
     // Use this for initialization
     void Start ()
@@ -29,10 +25,6 @@ public class PortofolioShowcaseController : MonoBehaviour
     public void HidePortofolio()
     {
         m_portofolioAnimator.SetBool("isShowing", false);
-        m_categoryUI.Hide();
-        m_categoryDecals.Hide();
-        m_categoryPersonal.Hide();
-        m_categoryBackground.Hide();
-        m_categoryThumbnails.Hide();
+        m_categoriesGrid.Reset();
     }
 }

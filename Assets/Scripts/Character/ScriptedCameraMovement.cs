@@ -9,7 +9,7 @@ public class ScriptedCameraMovement : MonoBehaviour
     private Vector3 m_cameraInitialPosLocalSpace;
 
     private Vector3 m_startLocalSpace;
-    private Vector3 m_targetLocalPos;
+    private Vector3 m_targetLocalSpace;
     private float m_moveStartTime;
     private float m_moveDistance;
 
@@ -33,9 +33,9 @@ public class ScriptedCameraMovement : MonoBehaviour
         {
             float distanceCovered = m_scriptedCameraMoveSpeed * (Time.time - m_moveStartTime);
             float factor = distanceCovered / m_moveDistance;
-            m_mainCamera.transform.localPosition = Vector3.Lerp(m_startLocalSpace, m_targetLocalPos, factor);
+            m_mainCamera.transform.localPosition = Vector3.Lerp(m_startLocalSpace, m_targetLocalSpace, factor);
 
-            float distance = Vector3.Distance(m_mainCamera.transform.localPosition, m_targetLocalPos);
+            float distance = Vector3.Distance(m_mainCamera.transform.localPosition, m_targetLocalSpace);
             if (distance <= Vector3.kEpsilon)
             {
                 m_isInScriptedMove = false;
@@ -43,10 +43,10 @@ public class ScriptedCameraMovement : MonoBehaviour
         }
     }
 
-    public void SetTarget(Vector3 m_target)
+    public void SetTarget(Vector3 target)
     {
         Vector3 targetLocalPos = m_cameraInitialPosLocalSpace;
-        Vector3 localPos = m_mainCamera.transform.InverseTransformPoint(m_target);
+        Vector3 localPos = m_mainCamera.transform.parent.InverseTransformPoint(target);
         targetLocalPos.x = localPos.x;
         TweenToLocalPos(targetLocalPos);
     }
@@ -58,10 +58,10 @@ public class ScriptedCameraMovement : MonoBehaviour
 
     private void TweenToLocalPos(Vector3 targetLocalPos)
     {
-        m_targetLocalPos = targetLocalPos;
         m_moveStartTime = Time.time;
         m_startLocalSpace = m_mainCamera.transform.localPosition;
-        m_moveDistance = Vector3.Distance(m_startLocalSpace, m_targetLocalPos);
+        m_targetLocalSpace = targetLocalPos;
+        m_moveDistance = Vector3.Distance(m_startLocalSpace, m_targetLocalSpace);
         m_isInScriptedMove = true;
     }
 }

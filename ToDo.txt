@@ -1,18 +1,45 @@
 ====Things to do for the Portofolio====
+Marius:
 //1. Create a video player that works on WebGL and in Editor.
 //2. Create a simple portofolio grid. We will add the art, animations and content later.
 //3. Add a simple parallax effect to the world layers in the Game scene.
 //4. Make the Landing page work.
-5. Add the portofolio grid to the landing page.
-//6. Add a mouse parallax effect to the landing page. This still needs work.
-7. Made the cv.pdf openable from the landing page.
+//5. Add a mouse parallax effect to the landing page. This still needs work.
+//6. Create a cinematic transition for the portofolio grid in the game scene.
+//7. Make the cv.pdf openable from the WebApp
+8. Portofolio grid
+	//8.1 Make the scripted transition for it work
+	//8.2 Make the fullscreen version work
+	//8.3 Integrate the new graphical assets
+	//8.4 Add the Portofolio Grid to the Landing page
+	8.5 Polish the Portofolio Grid
+	8.6 Polish the Categories Grid
+9. Fix the image ghosting effect that occurs on camera movement.
+10. Add functionality for the Contact page:
+	10.1 Copy to clipboard for fields such as email, phone number etc
+	//10.2 Message box that allows sending an email directly.
 
-	
 Albu:
-1. Add background animations to liven things up.
-2. Add the 3 triggers for the portofolio categories:
-	2.1 UI
-	2.2 Yacht skins
-	2.3 Personal projects
-3. Update the owl animation
-4. Create the textures for the portofolio grid
+//1. Add background animations to liven things up.
+//2. Add the 3 triggers for the portofolio categories:
+	//2.1 UI
+	//2.2 Yacht skins
+	//2.3 Personal projects
+//3. Update the owl animation
+//4. Navigation menu for the app. This must include buttons for:
+	//4.1 Home
+	//4.2 CV
+	//4.3 Portofolio
+	//4.4 Game
+//5. In the Landing scene, add transition animation from the Categories to the Portofolio grid.
+//6. Provide the sources for the Landing page art.
+//7. Create the textures for the portofolio grid
+	//7.1 Backgrounds.
+	//7.2 Tiles.
+	//7.3 Bullet scroll
+	//7.4 Video player
+8. Add content to the Portofolio grid.
+9. Create graphics for the Contact page.
+
+
+

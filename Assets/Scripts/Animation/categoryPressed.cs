@@ -26,11 +26,11 @@ public class categoryPressed : MonoBehaviour {
     {
         if (InputUtils.IsLeftClickOnCollider(m_collider))
         {
-            SetVisibiliy(true);
+            SetClicked(true);
         }
     }
 
-    private void SetVisibiliy(bool enable)
+    private void SetClicked(bool enable)
     {
         imageElement_animator.SetBool("mouseClick", enable);
         drawnElement_animator.SetBool("mouseClick", enable);
@@ -39,6 +39,6 @@ public class categoryPressed : MonoBehaviour {
 
     public void Hide()
     {
-        SetVisibiliy(false);
+        SetClicked(false);
     }
 }

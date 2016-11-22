@@ -25,7 +25,7 @@
     <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="800px" width="1800px"></canvas>
     <script type='text/javascript'>
   var Module = {
-    TOTAL_MEMORY: 268435456,
+    TOTAL_MEMORY: 536870912,
     errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
     compatibilitycheck: null,
     dataUrl: "Release/WebGL.data",
@@ -35,6 +35,6 @@
   };
 </script>
 <script src="Release/UnityLoader.js"></script>
-
+	<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
   </body>
 </html>

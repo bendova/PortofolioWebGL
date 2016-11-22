@@ -13,7 +13,6 @@ public class InteractionTrigger : MonoBehaviour
     private Animator m_mouseButtonAnimator;
     private Collider2D m_menuPageOpenCollider;
     private Animator m_menuPageAnimator;
-    private Collider2D m_menuPageCloseCollider;
     private CharController m_playerCharController;
 
     private bool m_isPlayerInsideTrigger = false;
@@ -28,7 +27,6 @@ public class InteractionTrigger : MonoBehaviour
         m_menuPageOpenCollider = m_interactionMouseButton.GetComponent<Collider2D>();
 
         m_menuPageAnimator = m_interactionMenuPage.GetComponent<Animator>();
-        m_menuPageCloseCollider = m_interactionMenuPage.GetComponent<Collider2D>();
 
         m_player = PlayerUtils.GetPlayer();
         if (m_player)
@@ -119,11 +117,7 @@ public class InteractionTrigger : MonoBehaviour
 
     private void ProcessInputForMenuPage()
     {
-        if(InputUtils.IsLeftClickOnCollider(m_menuPageCloseCollider))
-        {
-            SetMenuPageOpen(false);
-        }
-        else if (Input.GetKeyDown("escape"))
+        if (Input.GetKeyDown("escape"))
         {
             SetMenuPageOpen(false);
         }
@@ -145,5 +139,10 @@ public class InteractionTrigger : MonoBehaviour
             m_playerCharController.StopScripteMoveToPos();
             m_playerCharController.SetLookUpTarget(null);
         }
+    }
+
+    public void CloseMenuPage()
+    {
+        SetMenuPageOpen(false);
     }
 }

@@ -166,11 +166,19 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 120
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  buildTargetSettings:
+  - buildTarget: WebGL
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: lightAnim 1_0
+    - serializedVersion: 2
+      name: lightAnim 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -180,17 +188,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 24.833336, y: -16.499878}
-        - {x: 7.833336, y: -51.499878}
-        - {x: 7.833336, y: -143.49988}
-        - {x: 35.833336, y: -164.49988}
-        - {x: 100.833336, y: -164.49988}
-        - {x: 149.83334, y: -154.49988}
-        - {x: 157.83334, y: -127.49988}
-        - {x: 157.83334, y: -29.499878}
-        - {x: 120.833336, y: -16.499878}
-    - name: lightAnim 1_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_1
       rect:
         serializedVersion: 2
         x: 600
@@ -200,16 +201,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 42, y: -15.499878}
-        - {x: 8, y: -47.499878}
-        - {x: 8, y: -161.49988}
-        - {x: 21, y: -164.49988}
-        - {x: 156, y: -164.49988}
-        - {x: 159, y: -161.49988}
-        - {x: 159, y: -18.499878}
-        - {x: 152, y: -15.499878}
-    - name: lightAnim 1_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_2
       rect:
         serializedVersion: 2
         x: 1200
@@ -219,17 +214,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 122.16669, y: -15.499878}
-        - {x: 51.166687, y: -15.499878}
-        - {x: 8.166687, y: -53.499878}
-        - {x: 8.166687, y: -128.49988}
-        - {x: 29.166687, y: -164.49988}
-        - {x: 131.16669, y: -164.49988}
-        - {x: 159.16669, y: -127.49988}
-        - {x: 159.16669, y: -65.49988}
-        - {x: 147.16669, y: -24.499878}
-    - name: lightAnim 1_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_3
       rect:
         serializedVersion: 2
         x: 1800
@@ -239,19 +227,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 127.83331, y: -15.499878}
-        - {x: 50.833313, y: -15.499878}
-        - {x: 23.833313, y: -24.499878}
-        - {x: 7.833313, y: -69.49988}
-        - {x: 7.833313, y: -139.49988}
-        - {x: 22.833313, y: -163.49988}
-        - {x: 29.833313, y: -164.49988}
-        - {x: 140.83331, y: -164.49988}
-        - {x: 158.83331, y: -147.49988}
-        - {x: 158.83331, y: -58.499878}
-        - {x: 153.83331, y: -19.499878}
-    - name: lightAnim 1_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_4
       rect:
         serializedVersion: 2
         x: 2400
@@ -261,17 +240,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 141, y: -15.499878}
-        - {x: 20, y: -15.499878}
-        - {x: 9, y: -51.499878}
-        - {x: 9, y: -133.49988}
-        - {x: 31, y: -163.49988}
-        - {x: 125, y: -163.49988}
-        - {x: 160, y: -141.49988}
-        - {x: 160, y: -81.49988}
-        - {x: 156, y: -40.499878}
-    - name: lightAnim 1_5
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_5
       rect:
         serializedVersion: 2
         x: 3000
@@ -281,14 +253,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 23.166687, y: -14.499878}
-        - {x: 9.166687, y: -43.499878}
-        - {x: 9.166687, y: -163.49988}
-        - {x: 151.16669, y: -163.49988}
-        - {x: 160.16669, y: -152.49988}
-        - {x: 160.16669, y: -14.499878}
-    - name: lightAnim 1_6
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_6
       rect:
         serializedVersion: 2
         x: 3600
@@ -298,20 +266,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 132.83337, y: -14.499878}
-        - {x: 59.833374, y: -14.499878}
-        - {x: 20.833374, y: -19.499878}
-        - {x: 8.833374, y: -51.499878}
-        - {x: 8.833374, y: -117.49988}
-        - {x: 28.833374, y: -162.49988}
-        - {x: 44.833374, y: -164.49988}
-        - {x: 76.833374, y: -164.49988}
-        - {x: 120.833374, y: -162.49988}
-        - {x: 158.83337, y: -141.49988}
-        - {x: 158.83337, y: -70.49988}
-        - {x: 152.83337, y: -31.499878}
-    - name: lightAnim 1_7
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_7
       rect:
         serializedVersion: 2
         x: 4200
@@ -321,15 +279,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 16.000122, y: -14.499878}
-        - {x: 10.000122, y: -29.499878}
-        - {x: 10.000122, y: -127.49988}
-        - {x: 30.000122, y: -163.49988}
-        - {x: 130.00012, y: -163.49988}
-        - {x: 161.00012, y: -138.49988}
-        - {x: 161.00012, y: -14.499878}
-    - name: lightAnim 1_8
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_8
       rect:
         serializedVersion: 2
         x: 4800
@@ -339,16 +292,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 59.166748, y: -14.499878}
-        - {x: 34.166748, y: -16.499878}
-        - {x: 10.166748, y: -42.499878}
-        - {x: 10.166748, y: -163.49988}
-        - {x: 159.16675, y: -163.49988}
-        - {x: 160.16675, y: -162.49988}
-        - {x: 160.16675, y: -29.499878}
-        - {x: 136.16675, y: -14.499878}
-    - name: lightAnim 1_9
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_9
       rect:
         serializedVersion: 2
         x: 5400
@@ -358,17 +305,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 128.83337, y: -14.499878}
-        - {x: 47.833374, y: -14.499878}
-        - {x: 9.833374, y: -43.499878}
-        - {x: 9.833374, y: -129.49988}
-        - {x: 38.833374, y: -163.49988}
-        - {x: 135.83337, y: -163.49988}
-        - {x: 159.83337, y: -134.49988}
-        - {x: 159.83337, y: -60.499878}
-        - {x: 151.83337, y: -29.499878}
-    - name: lightAnim 1_10
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_10
       rect:
         serializedVersion: 2
         x: 0
@@ -378,16 +318,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 33.833336, y: -14.666504}
-        - {x: 9.833336, y: -54.666504}
-        - {x: 9.833336, y: -123.666504}
-        - {x: 39.833336, y: -163.6665}
-        - {x: 128.83334, y: -163.6665}
-        - {x: 159.83334, y: -145.6665}
-        - {x: 159.83334, y: -53.666504}
-        - {x: 147.83334, y: -14.666504}
-    - name: lightAnim 1_11
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_11
       rect:
         serializedVersion: 2
         x: 600
@@ -397,17 +331,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 125, y: -14.666504}
-        - {x: 55, y: -14.666504}
-        - {x: 11, y: -39.666504}
-        - {x: 11, y: -127.666504}
-        - {x: 40, y: -163.6665}
-        - {x: 149, y: -163.6665}
-        - {x: 160, y: -135.6665}
-        - {x: 160, y: -43.666504}
-        - {x: 129, y: -16.666504}
-    - name: lightAnim 1_12
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_12
       rect:
         serializedVersion: 2
         x: 1200
@@ -417,17 +344,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 23.166687, y: -15.666504}
-        - {x: 22.166687, y: -16.666504}
-        - {x: 10.166687, y: -57.666504}
-        - {x: 10.166687, y: -133.6665}
-        - {x: 32.166687, y: -163.6665}
-        - {x: 143.16669, y: -163.6665}
-        - {x: 160.16669, y: -137.6665}
-        - {x: 160.16669, y: -29.666504}
-        - {x: 139.16669, y: -15.666504}
-    - name: lightAnim 1_13
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_13
       rect:
         serializedVersion: 2
         x: 1800
@@ -437,16 +357,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 24.833313, y: -15.666504}
-        - {x: 9.833313, y: -59.666504}
-        - {x: 9.833313, y: -135.6665}
-        - {x: 34.833313, y: -163.6665}
-        - {x: 140.83331, y: -163.6665}
-        - {x: 159.83331, y: -155.6665}
-        - {x: 159.83331, y: -37.666504}
-        - {x: 154.83331, y: -15.666504}
-    - name: lightAnim 1_14
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_14
       rect:
         serializedVersion: 2
         x: 2400
@@ -456,16 +370,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 37, y: -15.666504}
-        - {x: 11, y: -58.666504}
-        - {x: 11, y: -124.666504}
-        - {x: 31, y: -163.6665}
-        - {x: 132, y: -163.6665}
-        - {x: 161, y: -131.6665}
-        - {x: 161, y: -51.666504}
-        - {x: 132, y: -15.666504}
-    - name: lightAnim 1_15
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_15
       rect:
         serializedVersion: 2
         x: 3000
@@ -475,17 +383,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 133.16669, y: -15.666504}
-        - {x: 26.166687, y: -15.666504}
-        - {x: 11.166687, y: -57.666504}
-        - {x: 11.166687, y: -136.6665}
-        - {x: 39.166687, y: -163.6665}
-        - {x: 138.16669, y: -163.6665}
-        - {x: 161.16669, y: -132.6665}
-        - {x: 161.16669, y: -60.666504}
-        - {x: 153.16669, y: -44.666504}
-    - name: lightAnim 1_16
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_16
       rect:
         serializedVersion: 2
         x: 3600
@@ -495,18 +396,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 45.833374, y: -15.666504}
-        - {x: 10.833374, y: -44.666504}
-        - {x: 10.833374, y: -110.666504}
-        - {x: 36.833374, y: -153.6665}
-        - {x: 44.833374, y: -162.6665}
-        - {x: 48.833374, y: -163.6665}
-        - {x: 132.83337, y: -163.6665}
-        - {x: 160.83337, y: -148.6665}
-        - {x: 160.83337, y: -44.666504}
-        - {x: 151.83337, y: -15.666504}
-    - name: lightAnim 1_17
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_17
       rect:
         serializedVersion: 2
         x: 4200
@@ -516,17 +409,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 34.000122, y: -16.666504}
-        - {x: 12.000122, y: -54.666504}
-        - {x: 12.000122, y: -112.666504}
-        - {x: 13.000122, y: -115.666504}
-        - {x: 39.000122, y: -163.6665}
-        - {x: 150.00012, y: -163.6665}
-        - {x: 162.00012, y: -119.666504}
-        - {x: 162.00012, y: -48.666504}
-        - {x: 143.00012, y: -16.666504}
-    - name: lightAnim 1_18
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_18
       rect:
         serializedVersion: 2
         x: 4800
@@ -536,16 +422,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 23.166748, y: -16.666504}
-        - {x: 11.166748, y: -18.666504}
-        - {x: 11.166748, y: -127.666504}
-        - {x: 42.166748, y: -164.6665}
-        - {x: 140.16675, y: -164.6665}
-        - {x: 163.16675, y: -159.6665}
-        - {x: 163.16675, y: -32.666504}
-        - {x: 152.16675, y: -16.666504}
-    - name: lightAnim 1_19
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_19
       rect:
         serializedVersion: 2
         x: 5400
@@ -555,16 +435,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 44.833374, y: -16.666504}
-        - {x: 10.833374, y: -43.666504}
-        - {x: 10.833374, y: -115.666504}
-        - {x: 31.833374, y: -164.6665}
-        - {x: 146.83337, y: -164.6665}
-        - {x: 161.83337, y: -137.6665}
-        - {x: 161.83337, y: -59.666504}
-        - {x: 135.83337, y: -16.666504}
-    - name: lightAnim 1_20
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_20
       rect:
         serializedVersion: 2
         x: 0
@@ -574,16 +448,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 33.833336, y: -17.833252}
-        - {x: 10.833336, y: -33.833252}
-        - {x: 10.833336, y: -138.83325}
-        - {x: 28.833336, y: -166.83325}
-        - {x: 137.83334, y: -166.83325}
-        - {x: 161.83334, y: -133.83325}
-        - {x: 161.83334, y: -60.833252}
-        - {x: 140.83334, y: -17.833252}
-    - name: lightAnim 1_21
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_21
       rect:
         serializedVersion: 2
         x: 600
@@ -593,17 +461,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 22, y: -17.833252}
-        - {x: 11, y: -54.833252}
-        - {x: 11, y: -137.83325}
-        - {x: 31, y: -164.83325}
-        - {x: 36, y: -166.83325}
-        - {x: 150, y: -166.83325}
-        - {x: 163, y: -132.83325}
-        - {x: 163, y: -44.833252}
-        - {x: 134, y: -17.833252}
-    - name: lightAnim 1_22
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_22
       rect:
         serializedVersion: 2
         x: 1200
@@ -613,16 +474,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 38.166687, y: -18.833252}
-        - {x: 11.166687, y: -42.833252}
-        - {x: 11.166687, y: -117.83325}
-        - {x: 37.166687, y: -167.83325}
-        - {x: 130.16669, y: -167.83325}
-        - {x: 163.16669, y: -123.83325}
-        - {x: 163.16669, y: -47.833252}
-        - {x: 126.16669, y: -18.833252}
-    - name: lightAnim 1_23
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_23
       rect:
         serializedVersion: 2
         x: 1800
@@ -632,16 +487,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 26.833313, y: -18.833252}
-        - {x: 10.833313, y: -51.833252}
-        - {x: 10.833313, y: -140.83325}
-        - {x: 33.833313, y: -168.83325}
-        - {x: 123.83331, y: -168.83325}
-        - {x: 162.83331, y: -162.83325}
-        - {x: 162.83331, y: -35.833252}
-        - {x: 127.83331, y: -18.833252}
-    - name: lightAnim 1_24
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_24
       rect:
         serializedVersion: 2
         x: 2400
@@ -651,17 +500,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 130, y: -18.833252}
-        - {x: 43, y: -18.833252}
-        - {x: 11, y: -57.833252}
-        - {x: 11, y: -116.83325}
-        - {x: 42, y: -168.83325}
-        - {x: 134, y: -168.83325}
-        - {x: 145, y: -155.83325}
-        - {x: 164, y: -112.83325}
-        - {x: 164, y: -62.833252}
-    - name: lightAnim 1_25
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_25
       rect:
         serializedVersion: 2
         x: 3000
@@ -671,16 +513,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 34.166687, y: -18.833252}
-        - {x: 11.166687, y: -50.833252}
-        - {x: 11.166687, y: -112.83325}
-        - {x: 44.166687, y: -168.83325}
-        - {x: 139.16669, y: -168.83325}
-        - {x: 163.16669, y: -124.83325}
-        - {x: 163.16669, y: -40.833252}
-        - {x: 120.16669, y: -18.833252}
-    - name: lightAnim 1_26
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_26
       rect:
         serializedVersion: 2
         x: 3600
@@ -690,20 +526,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 72.833374, y: -18.833252}
-        - {x: 52.833374, y: -21.833252}
-        - {x: 16.833374, y: -24.833252}
-        - {x: 10.833374, y: -53.833252}
-        - {x: 10.833374, y: -136.83325}
-        - {x: 46.833374, y: -169.83325}
-        - {x: 126.833374, y: -169.83325}
-        - {x: 162.83337, y: -146.83325}
-        - {x: 162.83337, y: -53.833252}
-        - {x: 161.83337, y: -49.833252}
-        - {x: 120.833374, y: -21.833252}
-        - {x: 87.833374, y: -18.833252}
-    - name: lightAnim 1_27
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_27
       rect:
         serializedVersion: 2
         x: 4200
@@ -713,16 +539,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 24.000122, y: -17.833252}
-        - {x: 11.000122, y: -56.833252}
-        - {x: 11.000122, y: -132.83325}
-        - {x: 57.000122, y: -169.83325}
-        - {x: 145.00012, y: -169.83325}
-        - {x: 164.00012, y: -140.83325}
-        - {x: 164.00012, y: -42.833252}
-        - {x: 132.00012, y: -17.833252}
-    - name: lightAnim 1_28
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_28
       rect:
         serializedVersion: 2
         x: 4800
@@ -732,16 +552,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 48.166748, y: -17.833252}
-        - {x: 11.166748, y: -50.833252}
-        - {x: 11.166748, y: -121.83325}
-        - {x: 62.166748, y: -170.83325}
-        - {x: 137.16675, y: -170.83325}
-        - {x: 163.16675, y: -115.83325}
-        - {x: 163.16675, y: -52.833252}
-        - {x: 133.16675, y: -17.833252}
-    - name: lightAnim 1_29
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_29
       rect:
         serializedVersion: 2
         x: 5400
@@ -751,17 +565,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 131.83337, y: -17.833252}
-        - {x: 41.833374, y: -17.833252}
-        - {x: 9.833374, y: -59.833252}
-        - {x: 9.833374, y: -137.83325}
-        - {x: 53.833374, y: -170.83325}
-        - {x: 133.83337, y: -170.83325}
-        - {x: 150.83337, y: -152.83325}
-        - {x: 162.83337, y: -118.83325}
-        - {x: 162.83337, y: -60.833252}
-    - name: lightAnim 1_30
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_30
       rect:
         serializedVersion: 2
         x: 0
@@ -771,16 +578,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 135.83334, y: -17.499878}
-        - {x: 19.833336, y: -17.499878}
-        - {x: 9.833336, y: -40.499878}
-        - {x: 9.833336, y: -140.49988}
-        - {x: 57.833336, y: -170.49988}
-        - {x: 148.83334, y: -170.49988}
-        - {x: 161.83334, y: -128.49988}
-        - {x: 161.83334, y: -38.499878}
-    - name: lightAnim 1_31
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_31
       rect:
         serializedVersion: 2
         x: 600
@@ -790,16 +591,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 34, y: -16.499878}
-        - {x: 10, y: -50.499878}
-        - {x: 10, y: -121.49988}
-        - {x: 57, y: -170.49988}
-        - {x: 143, y: -170.49988}
-        - {x: 163, y: -117.49988}
-        - {x: 163, y: -23.499878}
-        - {x: 123, y: -16.499878}
-    - name: lightAnim 1_32
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_32
       rect:
         serializedVersion: 2
         x: 1200
@@ -809,17 +604,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 46.166687, y: -16.499878}
-        - {x: 21.166687, y: -25.499878}
-        - {x: 10.166687, y: -64.49988}
-        - {x: 10.166687, y: -127.49988}
-        - {x: 40.166687, y: -170.49988}
-        - {x: 148.16669, y: -170.49988}
-        - {x: 162.16669, y: -127.49988}
-        - {x: 162.16669, y: -39.499878}
-        - {x: 112.16669, y: -16.499878}
-    - name: lightAnim 1_33
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_33
       rect:
         serializedVersion: 2
         x: 1800
@@ -829,18 +617,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 115.83331, y: -16.499878}
-        - {x: 27.833313, y: -16.499878}
-        - {x: 8.833313, y: -58.499878}
-        - {x: 8.833313, y: -117.49988}
-        - {x: 57.833313, y: -170.49988}
-        - {x: 123.83331, y: -170.49988}
-        - {x: 140.83331, y: -167.49988}
-        - {x: 159.83331, y: -105.49988}
-        - {x: 160.83331, y: -103.49988}
-        - {x: 160.83331, y: -34.499878}
-    - name: lightAnim 1_34
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_34
       rect:
         serializedVersion: 2
         x: 2400
@@ -850,16 +630,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 10, y: -16.499878}
-        - {x: 10, y: -126.49988}
-        - {x: 67, y: -170.49988}
-        - {x: 145, y: -170.49988}
-        - {x: 159, y: -168.49988}
-        - {x: 161, y: -144.49988}
-        - {x: 161, y: -35.499878}
-        - {x: 146, y: -16.499878}
-    - name: lightAnim 1_35
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_35
       rect:
         serializedVersion: 2
         x: 3000
@@ -869,18 +643,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 54.166687, y: -16.499878}
-        - {x: 9.166687, y: -47.499878}
-        - {x: 9.166687, y: -112.49988}
-        - {x: 61.166687, y: -166.49988}
-        - {x: 69.16669, y: -170.49988}
-        - {x: 134.16669, y: -170.49988}
-        - {x: 157.16669, y: -166.49988}
-        - {x: 161.16669, y: -140.49988}
-        - {x: 161.16669, y: -31.499878}
-        - {x: 130.16669, y: -16.499878}
-    - name: lightAnim 1_36
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_36
       rect:
         serializedVersion: 2
         x: 3600
@@ -890,17 +656,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 34.833374, y: -16.499878}
-        - {x: 17.833374, y: -33.499878}
-        - {x: 8.833374, y: -65.49988}
-        - {x: 8.833374, y: -124.49988}
-        - {x: 52.833374, y: -170.49988}
-        - {x: 155.83337, y: -170.49988}
-        - {x: 159.83337, y: -154.49988}
-        - {x: 159.83337, y: -32.499878}
-        - {x: 111.833374, y: -16.499878}
-    - name: lightAnim 1_37
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_37
       rect:
         serializedVersion: 2
         x: 4200
@@ -910,16 +669,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 44.000122, y: -16.499878}
-        - {x: 10.000122, y: -55.499878}
-        - {x: 10.000122, y: -140.49988}
-        - {x: 52.000122, y: -170.49988}
-        - {x: 131.00012, y: -170.49988}
-        - {x: 160.00012, y: -129.49988}
-        - {x: 160.00012, y: -40.499878}
-        - {x: 109.00012, y: -16.499878}
-    - name: lightAnim 1_38
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_38
       rect:
         serializedVersion: 2
         x: 4800
@@ -929,18 +682,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 60.166748, y: -16.499878}
-        - {x: 25.166748, y: -24.499878}
-        - {x: 10.166748, y: -59.499878}
-        - {x: 10.166748, y: -133.49988}
-        - {x: 57.166748, y: -170.49988}
-        - {x: 107.16675, y: -170.49988}
-        - {x: 148.16675, y: -153.49988}
-        - {x: 158.16675, y: -140.49988}
-        - {x: 158.16675, y: -53.499878}
-        - {x: 137.16675, y: -16.499878}
-    - name: lightAnim 1_39
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_39
       rect:
         serializedVersion: 2
         x: 5400
@@ -950,18 +695,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 109.833374, y: -16.499878}
-        - {x: 35.833374, y: -16.499878}
-        - {x: 9.833374, y: -57.499878}
-        - {x: 8.833374, y: -58.499878}
-        - {x: 8.833374, y: -131.49988}
-        - {x: 60.833374, y: -170.49988}
-        - {x: 143.83337, y: -170.49988}
-        - {x: 152.83337, y: -165.49988}
-        - {x: 156.83337, y: -148.49988}
-        - {x: 156.83337, y: -29.499878}
-    - name: lightAnim 1_40
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_40
       rect:
         serializedVersion: 2
         x: 0
@@ -971,16 +708,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 49.833336, y: -16.666504}
-        - {x: 11.833336, y: -23.666504}
-        - {x: 8.833336, y: -38.666504}
-        - {x: 8.833336, y: -130.6665}
-        - {x: 42.833336, y: -170.6665}
-        - {x: 155.83334, y: -170.6665}
-        - {x: 155.83334, y: -36.666504}
-        - {x: 116.833336, y: -16.666504}
-    - name: lightAnim 1_41
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_41
       rect:
         serializedVersion: 2
         x: 600
@@ -990,18 +721,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 41, y: -16.666504}
-        - {x: 9, y: -32.666504}
-        - {x: 9, y: -107.666504}
-        - {x: 37, y: -146.6665}
-        - {x: 62, y: -169.6665}
-        - {x: 126, y: -169.6665}
-        - {x: 154, y: -164.6665}
-        - {x: 157, y: -138.6665}
-        - {x: 157, y: -29.666504}
-        - {x: 144, y: -16.666504}
-    - name: lightAnim 1_42
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_42
       rect:
         serializedVersion: 2
         x: 1200
@@ -1011,16 +734,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 40.166687, y: -16.666504}
-        - {x: 9.166687, y: -30.666504}
-        - {x: 9.166687, y: -129.6665}
-        - {x: 59.166687, y: -169.6665}
-        - {x: 134.16669, y: -169.6665}
-        - {x: 156.16669, y: -148.6665}
-        - {x: 156.16669, y: -30.666504}
-        - {x: 140.16669, y: -16.666504}
-    - name: lightAnim 1_43
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_43
       rect:
         serializedVersion: 2
         x: 1800
@@ -1030,17 +747,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 20.833313, y: -16.666504}
-        - {x: 9.833313, y: -18.666504}
-        - {x: 8.833313, y: -22.666504}
-        - {x: 8.833313, y: -127.666504}
-        - {x: 40.833313, y: -169.6665}
-        - {x: 146.83331, y: -169.6665}
-        - {x: 155.83331, y: -152.6665}
-        - {x: 155.83331, y: -36.666504}
-        - {x: 147.83331, y: -16.666504}
-    - name: lightAnim 1_44
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_44
       rect:
         serializedVersion: 2
         x: 2400
@@ -1050,18 +760,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 38, y: -16.666504}
-        - {x: 10, y: -41.666504}
-        - {x: 10, y: -108.666504}
-        - {x: 26, y: -140.6665}
-        - {x: 47, y: -169.6665}
-        - {x: 117, y: -169.6665}
-        - {x: 148, y: -163.6665}
-        - {x: 156, y: -132.6665}
-        - {x: 156, y: -42.666504}
-        - {x: 103, y: -16.666504}
-    - name: lightAnim 1_45
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_45
       rect:
         serializedVersion: 2
         x: 3000
@@ -1071,18 +773,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 105.16669, y: -16.666504}
-        - {x: 49.166687, y: -16.666504}
-        - {x: 19.166687, y: -31.666504}
-        - {x: 10.166687, y: -51.666504}
-        - {x: 10.166687, y: -132.6665}
-        - {x: 45.166687, y: -169.6665}
-        - {x: 136.16669, y: -169.6665}
-        - {x: 156.16669, y: -146.6665}
-        - {x: 156.16669, y: -44.666504}
-        - {x: 155.16669, y: -42.666504}
-    - name: lightAnim 1_46
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_46
       rect:
         serializedVersion: 2
         x: 3600
@@ -1092,16 +786,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 39.833374, y: -16.666504}
-        - {x: 9.833374, y: -46.666504}
-        - {x: 9.833374, y: -117.666504}
-        - {x: 52.833374, y: -168.6665}
-        - {x: 147.83337, y: -168.6665}
-        - {x: 155.83337, y: -136.6665}
-        - {x: 155.83337, y: -27.666504}
-        - {x: 122.833374, y: -16.666504}
-    - name: lightAnim 1_47
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_47
       rect:
         serializedVersion: 2
         x: 4200
@@ -1111,19 +799,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 126.00012, y: -17.666504}
-        - {x: 17.000122, y: -17.666504}
-        - {x: 10.000122, y: -18.666504}
-        - {x: 10.000122, y: -127.666504}
-        - {x: 14.000122, y: -156.6665}
-        - {x: 41.000122, y: -168.6665}
-        - {x: 131.00012, y: -168.6665}
-        - {x: 142.00012, y: -167.6665}
-        - {x: 156.00012, y: -127.666504}
-        - {x: 156.00012, y: -54.666504}
-        - {x: 150.00012, y: -39.666504}
-    - name: lightAnim 1_48
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_48
       rect:
         serializedVersion: 2
         x: 4800
@@ -1133,17 +812,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 132.16675, y: -17.666504}
-        - {x: 41.166748, y: -17.666504}
-        - {x: 10.166748, y: -32.666504}
-        - {x: 10.166748, y: -132.6665}
-        - {x: 54.166748, y: -168.6665}
-        - {x: 125.16675, y: -168.6665}
-        - {x: 157.16675, y: -139.6665}
-        - {x: 157.16675, y: -67.666504}
-        - {x: 155.16675, y: -52.666504}
-    - name: lightAnim 1_49
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_49
       rect:
         serializedVersion: 2
         x: 5400
@@ -1153,18 +825,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 111.833374, y: -17.666504}
-        - {x: 57.833374, y: -17.666504}
-        - {x: 19.833374, y: -28.666504}
-        - {x: 9.833374, y: -45.666504}
-        - {x: 9.833374, y: -118.666504}
-        - {x: 44.833374, y: -167.6665}
-        - {x: 109.833374, y: -167.6665}
-        - {x: 151.83337, y: -158.6665}
-        - {x: 155.83337, y: -136.6665}
-        - {x: 155.83337, y: -37.666504}
-    - name: lightAnim 1_50
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_50
       rect:
         serializedVersion: 2
         x: 0
@@ -1174,16 +838,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 32.833336, y: -18.833252}
-        - {x: 9.833336, y: -51.833252}
-        - {x: 9.833336, y: -117.83325}
-        - {x: 50.833336, y: -168.83325}
-        - {x: 111.833336, y: -168.83325}
-        - {x: 155.83334, y: -133.83325}
-        - {x: 155.83334, y: -35.833252}
-        - {x: 116.833336, y: -18.833252}
-    - name: lightAnim 1_51
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_51
       rect:
         serializedVersion: 2
         x: 600
@@ -1193,16 +851,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 36, y: -18.833252}
-        - {x: 11, y: -24.833252}
-        - {x: 11, y: -143.83325}
-        - {x: 16, y: -168.83325}
-        - {x: 114, y: -168.83325}
-        - {x: 157, y: -131.83325}
-        - {x: 157, y: -47.833252}
-        - {x: 123, y: -18.833252}
-    - name: lightAnim 1_52
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_52
       rect:
         serializedVersion: 2
         x: 1200
@@ -1212,17 +864,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 36.166687, y: -18.833252}
-        - {x: 11.166687, y: -50.833252}
-        - {x: 11.166687, y: -112.83325}
-        - {x: 20.166687, y: -150.83325}
-        - {x: 52.166687, y: -168.83325}
-        - {x: 115.16669, y: -168.83325}
-        - {x: 157.16669, y: -130.83325}
-        - {x: 157.16669, y: -34.833252}
-        - {x: 118.16669, y: -18.833252}
-    - name: lightAnim 1_53
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_53
       rect:
         serializedVersion: 2
         x: 1800
@@ -1232,18 +877,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 36.833313, y: -18.833252}
-        - {x: 9.833313, y: -48.833252}
-        - {x: 9.833313, y: -106.83325}
-        - {x: 28.833313, y: -141.83325}
-        - {x: 46.833313, y: -164.83325}
-        - {x: 54.833313, y: -167.83325}
-        - {x: 110.83331, y: -167.83325}
-        - {x: 156.83331, y: -133.83325}
-        - {x: 156.83331, y: -35.833252}
-        - {x: 113.83331, y: -18.833252}
-    - name: lightAnim 1_54
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_54
       rect:
         serializedVersion: 2
         x: 2400
@@ -1253,14 +890,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 59, y: -18.833252}
-        - {x: 11, y: -45.833252}
-        - {x: 11, y: -167.83325}
-        - {x: 159, y: -167.83325}
-        - {x: 159, y: -48.833252}
-        - {x: 133, y: -18.833252}
-    - name: lightAnim 1_55
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_55
       rect:
         serializedVersion: 2
         x: 3000
@@ -1270,15 +903,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 27.166687, y: -18.833252}
-        - {x: 11.166687, y: -29.833252}
-        - {x: 11.166687, y: -136.83325}
-        - {x: 21.166687, y: -167.83325}
-        - {x: 158.16669, y: -167.83325}
-        - {x: 159.16669, y: -160.83325}
-        - {x: 159.16669, y: -18.833252}
-    - name: lightAnim 1_56
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_56
       rect:
         serializedVersion: 2
         x: 3600
@@ -1288,17 +916,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 110.833374, y: -18.833252}
-        - {x: 44.833374, y: -18.833252}
-        - {x: 9.833374, y: -48.833252}
-        - {x: 9.833374, y: -104.83325}
-        - {x: 39.833374, y: -167.83325}
-        - {x: 123.833374, y: -167.83325}
-        - {x: 158.83337, y: -133.83325}
-        - {x: 158.83337, y: -38.833252}
-        - {x: 156.83337, y: -34.833252}
-    - name: lightAnim 1_57
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_57
       rect:
         serializedVersion: 2
         x: 4200
@@ -1308,16 +929,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 38.000122, y: -18.833252}
-        - {x: 11.000122, y: -43.833252}
-        - {x: 11.000122, y: -127.83325}
-        - {x: 26.000122, y: -166.83325}
-        - {x: 118.00012, y: -166.83325}
-        - {x: 160.00012, y: -153.83325}
-        - {x: 160.00012, y: -39.833252}
-        - {x: 137.00012, y: -18.833252}
-    - name: lightAnim 1_58
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_58
       rect:
         serializedVersion: 2
         x: 4800
@@ -1327,18 +942,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 10.166748, y: -111.83325}
-        - {x: 19.166748, y: -154.83325}
-        - {x: 42.166748, y: -166.83325}
-        - {x: 118.16675, y: -166.83325}
-        - {x: 160.16675, y: -153.83325}
-        - {x: 160.16675, y: -34.833252}
-        - {x: 159.16675, y: -26.833252}
-        - {x: 138.16675, y: -18.833252}
-        - {x: 69.16675, y: -18.833252}
-        - {x: 10.166748, y: -44.833252}
-    - name: lightAnim 1_59
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_59
       rect:
         serializedVersion: 2
         x: 5400
@@ -1348,16 +955,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 37.833374, y: -18.833252}
-        - {x: 9.833374, y: -48.833252}
-        - {x: 9.833374, y: -130.83325}
-        - {x: 40.833374, y: -166.83325}
-        - {x: 124.833374, y: -166.83325}
-        - {x: 158.83337, y: -146.83325}
-        - {x: 158.83337, y: -30.833252}
-        - {x: 120.833374, y: -18.833252}
-    - name: lightAnim 1_60
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_60
       rect:
         serializedVersion: 2
         x: 0
@@ -1367,18 +968,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 69.833336, y: -18.499939}
-        - {x: 15.833336, y: -37.49994}
-        - {x: 9.833336, y: -45.49994}
-        - {x: 9.833336, y: -139.49994}
-        - {x: 11.833336, y: -154.49994}
-        - {x: 48.833336, y: -166.49994}
-        - {x: 131.83334, y: -166.49994}
-        - {x: 158.83334, y: -146.49994}
-        - {x: 158.83334, y: -41.49994}
-        - {x: 122.833336, y: -18.499939}
-    - name: lightAnim 1_61
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_61
       rect:
         serializedVersion: 2
         x: 600
@@ -1388,18 +981,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 126, y: -17.499939}
-        - {x: 57, y: -17.499939}
-        - {x: 11, y: -28.499939}
-        - {x: 11, y: -133.49994}
-        - {x: 13, y: -154.49994}
-        - {x: 51, y: -166.49994}
-        - {x: 117, y: -166.49994}
-        - {x: 160, y: -133.49994}
-        - {x: 160, y: -51.49994}
-        - {x: 159, y: -47.49994}
-    - name: lightAnim 1_62
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_62
       rect:
         serializedVersion: 2
         x: 1200
@@ -1409,16 +994,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 55.166687, y: -17.499939}
-        - {x: 10.166687, y: -47.49994}
-        - {x: 10.166687, y: -121.49994}
-        - {x: 24.166687, y: -166.49994}
-        - {x: 129.16669, y: -166.49994}
-        - {x: 160.16669, y: -160.49994}
-        - {x: 160.16669, y: -44.49994}
-        - {x: 126.16669, y: -17.499939}
-    - name: lightAnim 1_63
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_63
       rect:
         serializedVersion: 2
         x: 1800
@@ -1428,16 +1007,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 57.833313, y: -17.499939}
-        - {x: 9.833313, y: -46.49994}
-        - {x: 9.833313, y: -127.49994}
-        - {x: 21.833313, y: -167.49994}
-        - {x: 149.83331, y: -167.49994}
-        - {x: 159.83331, y: -149.49994}
-        - {x: 159.83331, y: -60.49994}
-        - {x: 137.83331, y: -17.499939}
-    - name: lightAnim 1_64
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_64
       rect:
         serializedVersion: 2
         x: 2400
@@ -1447,16 +1020,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 60, y: -17.499939}
-        - {x: 11, y: -39.49994}
-        - {x: 11, y: -157.49994}
-        - {x: 33, y: -166.49994}
-        - {x: 131, y: -166.49994}
-        - {x: 161, y: -135.49994}
-        - {x: 161, y: -53.49994}
-        - {x: 139, y: -17.499939}
-    - name: lightAnim 1_65
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_65
       rect:
         serializedVersion: 2
         x: 3000
@@ -1466,16 +1033,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 57.166687, y: -17.499939}
-        - {x: 11.166687, y: -44.49994}
-        - {x: 11.166687, y: -159.49994}
-        - {x: 44.166687, y: -166.49994}
-        - {x: 118.16669, y: -166.49994}
-        - {x: 160.16669, y: -134.49994}
-        - {x: 160.16669, y: -32.49994}
-        - {x: 121.16669, y: -17.499939}
-    - name: lightAnim 1_66
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_66
       rect:
         serializedVersion: 2
         x: 3600
@@ -1485,17 +1046,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 142.83337, y: -17.499939}
-        - {x: 49.833374, y: -17.499939}
-        - {x: 10.833374, y: -49.49994}
-        - {x: 10.833374, y: -137.49994}
-        - {x: 11.833374, y: -154.49994}
-        - {x: 58.833374, y: -167.49994}
-        - {x: 158.83337, y: -167.49994}
-        - {x: 159.83337, y: -161.49994}
-        - {x: 159.83337, y: -26.499939}
-    - name: lightAnim 1_67
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_67
       rect:
         serializedVersion: 2
         x: 4200
@@ -1505,17 +1059,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 134.00012, y: -17.499939}
-        - {x: 54.000122, y: -17.499939}
-        - {x: 12.000122, y: -45.49994}
-        - {x: 12.000122, y: -143.49994}
-        - {x: 26.000122, y: -167.49994}
-        - {x: 126.00012, y: -167.49994}
-        - {x: 161.00012, y: -161.49994}
-        - {x: 161.00012, y: -81.49994}
-        - {x: 154.00012, y: -49.49994}
-    - name: lightAnim 1_68
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_68
       rect:
         serializedVersion: 2
         x: 4800
@@ -1525,18 +1072,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 130.16675, y: -17.499939}
-        - {x: 66.16675, y: -17.499939}
-        - {x: 12.166748, y: -48.49994}
-        - {x: 12.166748, y: -129.49994}
-        - {x: 21.166748, y: -162.49994}
-        - {x: 56.166748, y: -167.49994}
-        - {x: 117.16675, y: -167.49994}
-        - {x: 160.16675, y: -146.49994}
-        - {x: 160.16675, y: -41.49994}
-        - {x: 133.16675, y: -18.499939}
-    - name: lightAnim 1_69
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_69
       rect:
         serializedVersion: 2
         x: 5400
@@ -1546,15 +1085,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 11.833374, y: -17.499939}
-        - {x: 11.833374, y: -149.49994}
-        - {x: 42.833374, y: -167.49994}
-        - {x: 136.83337, y: -167.49994}
-        - {x: 159.83337, y: -133.49994}
-        - {x: 159.83337, y: -35.49994}
-        - {x: 147.83337, y: -17.499939}
-    - name: lightAnim 1_70
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_70
       rect:
         serializedVersion: 2
         x: 0
@@ -1564,17 +1098,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 19.833336, y: -17.666687}
-        - {x: 12.833336, y: -30.666687}
-        - {x: 12.833336, y: -114.66669}
-        - {x: 24.833336, y: -165.66669}
-        - {x: 37.833336, y: -167.66669}
-        - {x: 123.833336, y: -167.66669}
-        - {x: 159.83334, y: -142.66669}
-        - {x: 159.83334, y: -20.666687}
-        - {x: 146.83334, y: -17.666687}
-    - name: lightAnim 1_71
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_71
       rect:
         serializedVersion: 2
         x: 600
@@ -1584,17 +1111,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 54, y: -17.666687}
-        - {x: 14, y: -40.666687}
-        - {x: 14, y: -119.66669}
-        - {x: 30, y: -159.66669}
-        - {x: 46, y: -167.66669}
-        - {x: 132, y: -167.66669}
-        - {x: 161, y: -132.66669}
-        - {x: 161, y: -46.666687}
-        - {x: 139, y: -17.666687}
-    - name: lightAnim 1_72
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_72
       rect:
         serializedVersion: 2
         x: 1200
@@ -1604,18 +1124,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 57.166687, y: -17.666687}
-        - {x: 44.166687, y: -25.666687}
-        - {x: 14.166687, y: -59.666687}
-        - {x: 14.166687, y: -105.66669}
-        - {x: 18.166687, y: -151.66669}
-        - {x: 65.16669, y: -167.66669}
-        - {x: 114.16669, y: -167.66669}
-        - {x: 161.16669, y: -130.66669}
-        - {x: 161.16669, y: -49.666687}
-        - {x: 136.16669, y: -17.666687}
-    - name: lightAnim 1_73
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_73
       rect:
         serializedVersion: 2
         x: 1800
@@ -1625,15 +1137,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 37.833313, y: -17.666687}
-        - {x: 13.833313, y: -47.666687}
-        - {x: 13.833313, y: -142.66669}
-        - {x: 17.833313, y: -167.66669}
-        - {x: 160.83331, y: -167.66669}
-        - {x: 160.83331, y: -36.666687}
-        - {x: 137.83331, y: -17.666687}
-    - name: lightAnim 1_74
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_74
       rect:
         serializedVersion: 2
         x: 2400
@@ -1643,15 +1150,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 57, y: -17.666687}
-        - {x: 15, y: -26.666687}
-        - {x: 15, y: -154.66669}
-        - {x: 54, y: -167.66669}
-        - {x: 150, y: -167.66669}
-        - {x: 162, y: -158.66669}
-        - {x: 162, y: -17.666687}
-    - name: lightAnim 1_75
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_75
       rect:
         serializedVersion: 2
         x: 3000
@@ -1661,17 +1163,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 57.166687, y: -17.666687}
-        - {x: 44.166687, y: -24.666687}
-        - {x: 15.166687, y: -60.666687}
-        - {x: 15.166687, y: -157.66669}
-        - {x: 39.166687, y: -167.66669}
-        - {x: 143.16669, y: -167.66669}
-        - {x: 162.16669, y: -144.66669}
-        - {x: 162.16669, y: -45.666687}
-        - {x: 137.16669, y: -17.666687}
-    - name: lightAnim 1_76
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_76
       rect:
         serializedVersion: 2
         x: 3600
@@ -1681,19 +1176,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 131.83337, y: -17.666687}
-        - {x: 68.833374, y: -17.666687}
-        - {x: 41.833374, y: -20.666687}
-        - {x: 13.833374, y: -51.666687}
-        - {x: 13.833374, y: -144.66669}
-        - {x: 32.833374, y: -156.66669}
-        - {x: 71.833374, y: -167.66669}
-        - {x: 108.833374, y: -167.66669}
-        - {x: 153.83337, y: -134.66669}
-        - {x: 161.83337, y: -96.66669}
-        - {x: 161.83337, y: -57.666687}
-    - name: lightAnim 1_77
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_77
       rect:
         serializedVersion: 2
         x: 4200
@@ -1703,17 +1189,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 23.000122, y: -17.666687}
-        - {x: 16.000122, y: -20.666687}
-        - {x: 14.000122, y: -36.666687}
-        - {x: 14.000122, y: -160.66669}
-        - {x: 35.000122, y: -167.66669}
-        - {x: 115.00012, y: -167.66669}
-        - {x: 163.00012, y: -142.66669}
-        - {x: 163.00012, y: -45.666687}
-        - {x: 144.00012, y: -17.666687}
-    - name: lightAnim 1_78
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_78
       rect:
         serializedVersion: 2
         x: 4800
@@ -1723,16 +1202,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 14.166748, y: -17.666687}
-        - {x: 14.166748, y: -150.66669}
-        - {x: 40.166748, y: -162.66669}
-        - {x: 73.16675, y: -167.66669}
-        - {x: 122.16675, y: -167.66669}
-        - {x: 163.16675, y: -140.66669}
-        - {x: 163.16675, y: -32.666687}
-        - {x: 147.16675, y: -17.666687}
-    - name: lightAnim 1_79
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_79
       rect:
         serializedVersion: 2
         x: 5400
@@ -1742,16 +1215,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 34.833374, y: -17.666687}
-        - {x: 12.833374, y: -62.666687}
-        - {x: 12.833374, y: -145.66669}
-        - {x: 55.833374, y: -167.66669}
-        - {x: 143.83337, y: -167.66669}
-        - {x: 162.83337, y: -122.66669}
-        - {x: 162.83337, y: -30.666687}
-        - {x: 139.83337, y: -17.666687}
-    - name: lightAnim 1_80
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_80
       rect:
         serializedVersion: 2
         x: 0
@@ -1761,16 +1228,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 13.833336, y: -17.833374}
-        - {x: 12.833336, y: -22.833374}
-        - {x: 12.833336, y: -157.83337}
-        - {x: 44.833336, y: -168.83337}
-        - {x: 137.83334, y: -168.83337}
-        - {x: 162.83334, y: -119.833374}
-        - {x: 162.83334, y: -52.833374}
-        - {x: 129.83334, y: -17.833374}
-    - name: lightAnim 1_81
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_81
       rect:
         serializedVersion: 2
         x: 600
@@ -1780,19 +1241,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 50, y: -17.833374}
-        - {x: 45, y: -18.833374}
-        - {x: 13, y: -50.833374}
-        - {x: 13, y: -151.83337}
-        - {x: 14, y: -158.83337}
-        - {x: 44, y: -167.83337}
-        - {x: 111, y: -167.83337}
-        - {x: 162, y: -148.83337}
-        - {x: 164, y: -140.83337}
-        - {x: 164, y: -43.833374}
-        - {x: 120, y: -17.833374}
-    - name: lightAnim 1_82
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_82
       rect:
         serializedVersion: 2
         x: 1200
@@ -1802,17 +1254,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 116.16669, y: -17.833374}
-        - {x: 19.166687, y: -17.833374}
-        - {x: 12.166687, y: -47.833374}
-        - {x: 12.166687, y: -160.83337}
-        - {x: 34.166687, y: -167.83337}
-        - {x: 135.16669, y: -167.83337}
-        - {x: 163.16669, y: -137.83337}
-        - {x: 164.16669, y: -128.83337}
-        - {x: 164.16669, y: -41.833374}
-    - name: lightAnim 1_83
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_83
       rect:
         serializedVersion: 2
         x: 1800
@@ -1822,17 +1267,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 51.833313, y: -18.833374}
-        - {x: 21.833313, y: -26.833374}
-        - {x: 11.833313, y: -70.833374}
-        - {x: 11.833313, y: -160.83337}
-        - {x: 42.833313, y: -167.83337}
-        - {x: 148.83331, y: -167.83337}
-        - {x: 163.83331, y: -136.83337}
-        - {x: 163.83331, y: -47.833374}
-        - {x: 132.83331, y: -18.833374}
-    - name: lightAnim 1_84
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_84
       rect:
         serializedVersion: 2
         x: 2400
@@ -1842,18 +1280,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 117, y: -17.833374}
-        - {x: 39, y: -17.833374}
-        - {x: 13, y: -52.833374}
-        - {x: 13, y: -126.833374}
-        - {x: 14, y: -141.83337}
-        - {x: 31, y: -167.83337}
-        - {x: 156, y: -167.83337}
-        - {x: 165, y: -134.83337}
-        - {x: 165, y: -38.833374}
-        - {x: 146, y: -24.833374}
-    - name: lightAnim 1_85
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_85
       rect:
         serializedVersion: 2
         x: 3000
@@ -1863,19 +1293,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 131.16669, y: -17.833374}
-        - {x: 38.166687, y: -17.833374}
-        - {x: 12.166687, y: -78.833374}
-        - {x: 12.166687, y: -121.833374}
-        - {x: 20.166687, y: -138.83337}
-        - {x: 38.166687, y: -164.83337}
-        - {x: 52.166687, y: -166.83337}
-        - {x: 131.16669, y: -166.83337}
-        - {x: 157.16669, y: -128.83337}
-        - {x: 164.16669, y: -115.833374}
-        - {x: 164.16669, y: -42.833374}
-    - name: lightAnim 1_86
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_86
       rect:
         serializedVersion: 2
         x: 3600
@@ -1885,16 +1306,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 29.833374, y: -18.833374}
-        - {x: 11.833374, y: -46.833374}
-        - {x: 11.833374, y: -139.83337}
-        - {x: 38.833374, y: -166.83337}
-        - {x: 120.833374, y: -166.83337}
-        - {x: 163.83337, y: -119.833374}
-        - {x: 163.83337, y: -44.833374}
-        - {x: 149.83337, y: -18.833374}
-    - name: lightAnim 1_87
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_87
       rect:
         serializedVersion: 2
         x: 4200
@@ -1904,17 +1319,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 143.00012, y: -17.833374}
-        - {x: 36.000122, y: -17.833374}
-        - {x: 13.000122, y: -72.833374}
-        - {x: 13.000122, y: -163.83337}
-        - {x: 25.000122, y: -166.83337}
-        - {x: 153.00012, y: -166.83337}
-        - {x: 164.00012, y: -143.83337}
-        - {x: 164.00012, y: -55.833374}
-        - {x: 153.00012, y: -18.833374}
-    - name: lightAnim 1_88
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_88
       rect:
         serializedVersion: 2
         x: 4800
@@ -1924,17 +1332,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 47.166748, y: -17.833374}
-        - {x: 29.166748, y: -27.833374}
-        - {x: 12.166748, y: -59.833374}
-        - {x: 12.166748, y: -124.833374}
-        - {x: 35.166748, y: -166.83337}
-        - {x: 121.16675, y: -166.83337}
-        - {x: 164.16675, y: -123.833374}
-        - {x: 164.16675, y: -43.833374}
-        - {x: 136.16675, y: -17.833374}
-    - name: lightAnim 1_89
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_89
       rect:
         serializedVersion: 2
         x: 5400
@@ -1944,16 +1345,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 127.833374, y: -17.833374}
-        - {x: 14.833374, y: -17.833374}
-        - {x: 11.833374, y: -40.833374}
-        - {x: 11.833374, y: -150.83337}
-        - {x: 69.833374, y: -165.83337}
-        - {x: 135.83337, y: -165.83337}
-        - {x: 162.83337, y: -117.833374}
-        - {x: 162.83337, y: -46.833374}
-    - name: lightAnim 1_90
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_90
       rect:
         serializedVersion: 2
         x: 0
@@ -1963,17 +1358,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 35.833336, y: -17.49997}
-        - {x: 15.833336, y: -31.49997}
-        - {x: 11.833336, y: -61.49997}
-        - {x: 11.833336, y: -146.49997}
-        - {x: 35.833336, y: -165.49997}
-        - {x: 134.83334, y: -165.49997}
-        - {x: 162.83334, y: -139.49997}
-        - {x: 162.83334, y: -38.49997}
-        - {x: 157.83334, y: -17.49997}
-    - name: lightAnim 1_91
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_91
       rect:
         serializedVersion: 2
         x: 600
@@ -1983,18 +1371,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 148, y: -17.49997}
-        - {x: 42, y: -17.49997}
-        - {x: 23, y: -33.49997}
-        - {x: 13, y: -77.49997}
-        - {x: 13, y: -141.49997}
-        - {x: 52, y: -164.49997}
-        - {x: 125, y: -164.49997}
-        - {x: 163, y: -117.49997}
-        - {x: 163, y: -53.49997}
-        - {x: 158, y: -37.49997}
-    - name: lightAnim 1_92
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_92
       rect:
         serializedVersion: 2
         x: 1200
@@ -2004,16 +1384,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 47.166687, y: -17.49997}
-        - {x: 12.166687, y: -59.49997}
-        - {x: 12.166687, y: -140.49997}
-        - {x: 37.166687, y: -164.49997}
-        - {x: 147.16669, y: -164.49997}
-        - {x: 163.16669, y: -145.49997}
-        - {x: 163.16669, y: -43.49997}
-        - {x: 129.16669, y: -17.49997}
-    - name: lightAnim 1_93
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_93
       rect:
         serializedVersion: 2
         x: 1800
@@ -2023,17 +1397,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 46.833313, y: -18.49997}
-        - {x: 17.833313, y: -36.49997}
-        - {x: 11.833313, y: -72.49997}
-        - {x: 11.833313, y: -132.49997}
-        - {x: 49.833313, y: -164.49997}
-        - {x: 114.83331, y: -164.49997}
-        - {x: 161.83331, y: -136.49997}
-        - {x: 161.83331, y: -37.49997}
-        - {x: 127.83331, y: -18.49997}
-    - name: lightAnim 1_94
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_94
       rect:
         serializedVersion: 2
         x: 2400
@@ -2043,17 +1410,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 13, y: -73.49997}
-        - {x: 13, y: -144.49997}
-        - {x: 38, y: -163.49997}
-        - {x: 124, y: -163.49997}
-        - {x: 163, y: -143.49997}
-        - {x: 163, y: -53.49997}
-        - {x: 154, y: -17.49997}
-        - {x: 45, y: -17.49997}
-        - {x: 19, y: -35.49997}
-    - name: lightAnim 1_95
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_95
       rect:
         serializedVersion: 2
         x: 3000
@@ -2063,18 +1423,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 49.166687, y: -17.49997}
-        - {x: 30.166687, y: -19.49997}
-        - {x: 13.166687, y: -46.49997}
-        - {x: 13.166687, y: -126.49997}
-        - {x: 34.166687, y: -163.49997}
-        - {x: 121.16669, y: -163.49997}
-        - {x: 127.16669, y: -161.49997}
-        - {x: 162.16669, y: -128.49997}
-        - {x: 162.16669, y: -32.49997}
-        - {x: 159.16669, y: -17.49997}
-    - name: lightAnim 1_96
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_96
       rect:
         serializedVersion: 2
         x: 3600
@@ -2084,18 +1436,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 149.83337, y: -17.49997}
-        - {x: 69.833374, y: -17.49997}
-        - {x: 25.833374, y: -35.49997}
-        - {x: 12.833374, y: -53.49997}
-        - {x: 12.833374, y: -125.49997}
-        - {x: 31.833374, y: -163.49997}
-        - {x: 121.833374, y: -163.49997}
-        - {x: 161.83337, y: -131.49997}
-        - {x: 161.83337, y: -50.49997}
-        - {x: 152.83337, y: -18.49997}
-    - name: lightAnim 1_97
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_97
       rect:
         serializedVersion: 2
         x: 4200
@@ -2105,18 +1449,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 128.00012, y: -18.49997}
-        - {x: 69.00012, y: -18.49997}
-        - {x: 36.000122, y: -24.49997}
-        - {x: 14.000122, y: -68.49997}
-        - {x: 14.000122, y: -140.49997}
-        - {x: 59.000122, y: -162.49997}
-        - {x: 122.00012, y: -162.49997}
-        - {x: 162.00012, y: -131.49997}
-        - {x: 162.00012, y: -42.49997}
-        - {x: 160.00012, y: -29.49997}
-    - name: lightAnim 1_98
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_98
       rect:
         serializedVersion: 2
         x: 4800
@@ -2126,18 +1462,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 146.16675, y: -18.49997}
-        - {x: 40.166748, y: -18.49997}
-        - {x: 14.166748, y: -37.49997}
-        - {x: 13.166748, y: -43.49997}
-        - {x: 13.166748, y: -149.49997}
-        - {x: 44.166748, y: -162.49997}
-        - {x: 121.16675, y: -162.49997}
-        - {x: 162.16675, y: -125.49997}
-        - {x: 162.16675, y: -68.49997}
-        - {x: 151.16675, y: -19.49997}
-    - name: lightAnim 1_99
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_99
       rect:
         serializedVersion: 2
         x: 5400
@@ -2147,17 +1475,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 53.833374, y: -18.49997}
-        - {x: 17.833374, y: -29.49997}
-        - {x: 12.833374, y: -43.49997}
-        - {x: 12.833374, y: -120.49997}
-        - {x: 39.833374, y: -162.49997}
-        - {x: 120.833374, y: -162.49997}
-        - {x: 161.83337, y: -126.49997}
-        - {x: 161.83337, y: -42.49997}
-        - {x: 134.83337, y: -18.49997}
-    - name: lightAnim 1_100
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_100
       rect:
         serializedVersion: 2
         x: 0
@@ -2167,18 +1488,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 144.83334, y: -17.666672}
-        - {x: 42.833336, y: -17.666672}
-        - {x: 12.833336, y: -43.66667}
-        - {x: 12.833336, y: -139.66667}
-        - {x: 33.833336, y: -161.66667}
-        - {x: 118.833336, y: -161.66667}
-        - {x: 123.833336, y: -160.66667}
-        - {x: 160.83334, y: -126.66667}
-        - {x: 160.83334, y: -67.66667}
-        - {x: 145.83334, y: -18.666672}
-    - name: lightAnim 1_101
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_101
       rect:
         serializedVersion: 2
         x: 600
@@ -2188,15 +1501,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 14, y: -17.666672}
-        - {x: 14, y: -135.66667}
-        - {x: 51, y: -161.66667}
-        - {x: 133, y: -161.66667}
-        - {x: 162, y: -133.66667}
-        - {x: 162, y: -50.66667}
-        - {x: 152, y: -17.666672}
-    - name: lightAnim 1_102
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_102
       rect:
         serializedVersion: 2
         x: 1200
@@ -2206,17 +1514,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 127.16669, y: -17.666672}
-        - {x: 42.166687, y: -17.666672}
-        - {x: 14.166687, y: -40.66667}
-        - {x: 14.166687, y: -149.66667}
-        - {x: 33.166687, y: -160.66667}
-        - {x: 149.16669, y: -160.66667}
-        - {x: 162.16669, y: -129.66667}
-        - {x: 162.16669, y: -30.666672}
-        - {x: 151.16669, y: -21.666672}
-    - name: lightAnim 1_103
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_103
       rect:
         serializedVersion: 2
         x: 1800
@@ -2226,16 +1527,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 135.83331, y: -17.666672}
-        - {x: 21.833313, y: -17.666672}
-        - {x: 13.833313, y: -18.666672}
-        - {x: 13.833313, y: -138.66667}
-        - {x: 53.833313, y: -160.66667}
-        - {x: 122.83331, y: -160.66667}
-        - {x: 160.83331, y: -119.66667}
-        - {x: 160.83331, y: -46.66667}
-    - name: lightAnim 1_104
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_104
       rect:
         serializedVersion: 2
         x: 2400
@@ -2245,16 +1540,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 19, y: -17.666672}
-        - {x: 15, y: -27.666672}
-        - {x: 15, y: -149.66667}
-        - {x: 43, y: -160.66667}
-        - {x: 149, y: -160.66667}
-        - {x: 162, y: -148.66667}
-        - {x: 162, y: -46.66667}
-        - {x: 155, y: -17.666672}
-    - name: lightAnim 1_105
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_105
       rect:
         serializedVersion: 2
         x: 3000
@@ -2264,17 +1553,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 35.166687, y: -17.666672}
-        - {x: 15.166687, y: -37.66667}
-        - {x: 15.166687, y: -133.66667}
-        - {x: 56.166687, y: -158.66667}
-        - {x: 62.166687, y: -160.66667}
-        - {x: 150.16669, y: -160.66667}
-        - {x: 161.16669, y: -140.66667}
-        - {x: 161.16669, y: -26.666672}
-        - {x: 133.16669, y: -17.666672}
-    - name: lightAnim 1_106
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_106
       rect:
         serializedVersion: 2
         x: 3600
@@ -2284,16 +1566,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 35.833374, y: -17.666672}
-        - {x: 13.833374, y: -27.666672}
-        - {x: 13.833374, y: -145.66667}
-        - {x: 59.833374, y: -160.66667}
-        - {x: 150.83337, y: -160.66667}
-        - {x: 160.83337, y: -148.66667}
-        - {x: 160.83337, y: -45.66667}
-        - {x: 141.83337, y: -17.666672}
-    - name: lightAnim 1_107
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_107
       rect:
         serializedVersion: 2
         x: 4200
@@ -2303,15 +1579,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 16.000122, y: -17.666672}
-        - {x: 15.000122, y: -26.666672}
-        - {x: 15.000122, y: -146.66667}
-        - {x: 45.000122, y: -160.66667}
-        - {x: 160.00012, y: -160.66667}
-        - {x: 162.00012, y: -149.66667}
-        - {x: 162.00012, y: -17.666672}
-    - name: lightAnim 1_108
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_108
       rect:
         serializedVersion: 2
         x: 4800
@@ -2321,18 +1592,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 47.166748, y: -16.666672}
-        - {x: 15.166748, y: -26.666672}
-        - {x: 15.166748, y: -133.66667}
-        - {x: 16.166748, y: -141.66667}
-        - {x: 52.166748, y: -159.66667}
-        - {x: 68.16675, y: -161.66667}
-        - {x: 130.16675, y: -161.66667}
-        - {x: 161.16675, y: -132.66667}
-        - {x: 161.16675, y: -57.66667}
-        - {x: 147.16675, y: -16.666672}
-    - name: lightAnim 1_109
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_109
       rect:
         serializedVersion: 2
         x: 5400
@@ -2342,16 +1605,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 55.833374, y: -16.666672}
-        - {x: 14.833374, y: -50.66667}
-        - {x: 14.833374, y: -125.66667}
-        - {x: 38.833374, y: -161.66667}
-        - {x: 116.833374, y: -161.66667}
-        - {x: 159.83337, y: -127.66667}
-        - {x: 159.83337, y: -58.66667}
-        - {x: 145.83337, y: -16.666672}
-    - name: lightAnim 1_110
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_110
       rect:
         serializedVersion: 2
         x: 0
@@ -2361,17 +1618,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 27.833336, y: -17.833344}
-        - {x: 14.833336, y: -37.833344}
-        - {x: 14.833336, y: -133.83334}
-        - {x: 39.833336, y: -162.83334}
-        - {x: 122.833336, y: -162.83334}
-        - {x: 144.83334, y: -159.83334}
-        - {x: 159.83334, y: -128.83334}
-        - {x: 159.83334, y: -30.833344}
-        - {x: 138.83334, y: -17.833344}
-    - name: lightAnim 1_111
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_111
       rect:
         serializedVersion: 2
         x: 600
@@ -2381,17 +1631,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 37, y: -17.833344}
-        - {x: 16, y: -40.833344}
-        - {x: 16, y: -141.83334}
-        - {x: 48, y: -162.83334}
-        - {x: 111, y: -162.83334}
-        - {x: 148, y: -149.83334}
-        - {x: 160, y: -130.83334}
-        - {x: 160, y: -18.833344}
-        - {x: 152, y: -17.833344}
-    - name: lightAnim 1_112
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_112
       rect:
         serializedVersion: 2
         x: 1200
@@ -2401,17 +1644,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 44.166687, y: -16.833344}
-        - {x: 17.166687, y: -23.833344}
-        - {x: 15.166687, y: -35.833344}
-        - {x: 15.166687, y: -153.83334}
-        - {x: 45.166687, y: -162.83334}
-        - {x: 125.16669, y: -162.83334}
-        - {x: 159.16669, y: -128.83334}
-        - {x: 159.16669, y: -40.833344}
-        - {x: 131.16669, y: -16.833344}
-    - name: lightAnim 1_113
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_113
       rect:
         serializedVersion: 2
         x: 1800
@@ -2421,17 +1657,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 26.833313, y: -17.833344}
-        - {x: 14.833313, y: -36.833344}
-        - {x: 14.833313, y: -126.83334}
-        - {x: 19.833313, y: -137.83334}
-        - {x: 56.833313, y: -162.83334}
-        - {x: 112.83331, y: -162.83334}
-        - {x: 157.83331, y: -143.83334}
-        - {x: 157.83331, y: -28.833344}
-        - {x: 135.83331, y: -17.833344}
-    - name: lightAnim 1_114
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_114
       rect:
         serializedVersion: 2
         x: 2400
@@ -2441,16 +1670,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 56, y: -17.833344}
-        - {x: 16, y: -53.833344}
-        - {x: 16, y: -143.83334}
-        - {x: 59, y: -163.83334}
-        - {x: 148, y: -163.83334}
-        - {x: 159, y: -155.83334}
-        - {x: 159, y: -37.833344}
-        - {x: 153, y: -17.833344}
-    - name: lightAnim 1_115
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_115
       rect:
         serializedVersion: 2
         x: 3000
@@ -2460,18 +1683,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 143.16669, y: -18.833344}
-        - {x: 127.16669, y: -16.833344}
-        - {x: 51.166687, y: -16.833344}
-        - {x: 16.166687, y: -44.833344}
-        - {x: 16.166687, y: -141.83334}
-        - {x: 64.16669, y: -163.83334}
-        - {x: 126.16669, y: -163.83334}
-        - {x: 155.16669, y: -142.83334}
-        - {x: 158.16669, y: -121.83334}
-        - {x: 158.16669, y: -45.833344}
-    - name: lightAnim 1_116
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_116
       rect:
         serializedVersion: 2
         x: 3600
@@ -2481,17 +1696,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 134.83337, y: -16.833344}
-        - {x: 51.833374, y: -16.833344}
-        - {x: 14.833374, y: -31.833344}
-        - {x: 14.833374, y: -124.83334}
-        - {x: 35.833374, y: -164.83334}
-        - {x: 140.83337, y: -164.83334}
-        - {x: 156.83337, y: -136.83334}
-        - {x: 156.83337, y: -67.83334}
-        - {x: 145.83337, y: -30.833344}
-    - name: lightAnim 1_117
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_117
       rect:
         serializedVersion: 2
         x: 4200
@@ -2501,16 +1709,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 23.000122, y: -16.833344}
-        - {x: 16.000122, y: -19.833344}
-        - {x: 16.000122, y: -147.83334}
-        - {x: 39.000122, y: -164.83334}
-        - {x: 111.00012, y: -164.83334}
-        - {x: 158.00012, y: -150.83334}
-        - {x: 158.00012, y: -31.833344}
-        - {x: 133.00012, y: -16.833344}
-    - name: lightAnim 1_118
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_118
       rect:
         serializedVersion: 2
         x: 4800
@@ -2520,17 +1722,10 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 57.166748, y: -16.833344}
-        - {x: 54.166748, y: -17.833344}
-        - {x: 16.166748, y: -43.833344}
-        - {x: 16.166748, y: -142.83334}
-        - {x: 51.166748, y: -164.83334}
-        - {x: 110.16675, y: -164.83334}
-        - {x: 158.16675, y: -145.83334}
-        - {x: 158.16675, y: -43.833344}
-        - {x: 126.16675, y: -16.833344}
-    - name: lightAnim 1_119
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightAnim 1_119
       rect:
         serializedVersion: 2
         x: 5400
@@ -2540,17 +1735,8 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 137.83337, y: -17.833344}
-        - {x: 131.83337, y: -16.833344}
-        - {x: 29.833374, y: -16.833344}
-        - {x: 15.833374, y: -47.833344}
-        - {x: 15.833374, y: -127.83334}
-        - {x: 58.833374, y: -165.83334}
-        - {x: 123.833374, y: -165.83334}
-        - {x: 156.83337, y: -129.83334}
-        - {x: 156.83337, y: -55.833344}
-        - {x: 152.83337, y: -43.833344}
+      outline: []
+      tessellationDetail: -1
     outline: []
   spritePackingTag: 
   userData: 

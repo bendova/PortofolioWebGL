@@ -12,7 +12,7 @@ TextureImporter:
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -51,11 +51,19 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  buildTargetSettings:
+  - buildTarget: WebGL
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: text_lines_0
+    - serializedVersion: 2
+      name: text_lines_0
       rect:
         serializedVersion: 2
         x: 12
@@ -65,15 +73,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 15, y: 17}
-        - {x: 6, y: 17}
-        - {x: -21, y: -7}
-        - {x: -21, y: -17}
-        - {x: -4, y: -17}
-        - {x: 21, y: -8}
-        - {x: 21, y: 9}
-    - name: text_lines_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: text_lines_1
       rect:
         serializedVersion: 2
         x: 68
@@ -84,7 +87,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: text_lines_2
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: text_lines_2
       rect:
         serializedVersion: 2
         x: 93
@@ -95,7 +100,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: text_lines_3
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: text_lines_3
       rect:
         serializedVersion: 2
         x: 168
@@ -106,7 +113,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: text_lines_4
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: text_lines_4
       rect:
         serializedVersion: 2
         x: 213
@@ -117,6 +126,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      tessellationDetail: -1
     outline: []
   spritePackingTag: 
   userData: 
