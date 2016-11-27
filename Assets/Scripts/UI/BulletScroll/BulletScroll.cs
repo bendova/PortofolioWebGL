@@ -7,6 +7,8 @@ using UnityEngine.Events;
 
 public class BulletScroll : MonoBehaviour
 {
+    public GameObject m_leftButton;
+    public GameObject m_rightButton;
     public GameObject m_bulletPrefab;
     public GameObject m_bulletsContainer;
     public float m_bulletSpacingH = 10.0f;
@@ -50,6 +52,16 @@ public class BulletScroll : MonoBehaviour
             }
         }
         SelectBullet(0);
+
+        bool showBullets = m_bullets.Count > 1;
+        SetBulletsVisible(showBullets);
+    }
+
+    private void SetBulletsVisible(bool showBullets)
+    {
+        m_leftButton.SetActive(showBullets);
+        m_rightButton.SetActive(showBullets);
+        m_bulletsContainer.SetActive(showBullets);
     }
 
     private void CreateBullets(int count)

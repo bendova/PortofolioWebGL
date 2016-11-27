@@ -23,6 +23,8 @@ public class CharController : MonoBehaviour
         Forward
     };
 
+    public delegate void OnScriptedTargetReached();
+    
     private Animator m_animator;
     private Rigidbody2D m_rigidBody;
     private SpriteRenderer m_renderer;
@@ -34,6 +36,7 @@ public class CharController : MonoBehaviour
     private bool m_isInScriptedMove = false;
     private Vector3 m_scriptedPlayerMoveTarget;
     private Vector3 m_scriptedCameraMoveTarget;
+    private OnScriptedTargetReached m_onScriptedTargetReachedCb;
 
     void Start()
     {
@@ -100,7 +103,7 @@ public class CharController : MonoBehaviour
 
     private void OnScriptedMoveTargetReached()
     {
-        m_scriptedCameraMovement.SetTarget(m_scriptedCameraMoveTarget);
+        m_scriptedCameraMovement.SetTarget(m_scriptedCameraMoveTarget, m_onScriptedTargetReachedCb);
     }
 
     private float CalculateMoveH()
@@ -269,7 +272,7 @@ public class CharController : MonoBehaviour
         return isInView;
     }
 
-    public void ScriptedMoveToPos(Transform playerTarget, Transform cameraTarget)
+    public void ScriptedMoveToPos(Transform playerTarget, Transform cameraTarget, OnScriptedTargetReached cb)
     {
         m_isInScriptedMove = true;
         m_enableInputHandling = false;
@@ -279,6 +282,7 @@ public class CharController : MonoBehaviour
         m_scriptedPlayerMoveTarget.z = m_playerCollider.transform.position.z;
 
         m_scriptedCameraMoveTarget = cameraTarget.position;
+        m_onScriptedTargetReachedCb = cb;
     }
 
     public void StopScripteMoveToPos()

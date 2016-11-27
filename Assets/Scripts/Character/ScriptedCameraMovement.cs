@@ -12,6 +12,8 @@ public class ScriptedCameraMovement : MonoBehaviour
     private Vector3 m_targetLocalSpace;
     private float m_moveStartTime;
     private float m_moveDistance;
+    
+    private CharController.OnScriptedTargetReached m_onScriptedTargetReachedCb;
 
     private bool m_isInScriptedMove = false;
 
@@ -39,16 +41,22 @@ public class ScriptedCameraMovement : MonoBehaviour
             if (distance <= Vector3.kEpsilon)
             {
                 m_isInScriptedMove = false;
+                if(m_onScriptedTargetReachedCb != null)
+                {
+                    m_onScriptedTargetReachedCb.Invoke();
+                    m_onScriptedTargetReachedCb = null;
+                }
             }
         }
     }
 
-    public void SetTarget(Vector3 target)
+    public void SetTarget(Vector3 target, CharController.OnScriptedTargetReached cb)
     {
         Vector3 targetLocalPos = m_cameraInitialPosLocalSpace;
         Vector3 localPos = m_mainCamera.transform.parent.InverseTransformPoint(target);
         targetLocalPos.x = localPos.x;
         TweenToLocalPos(targetLocalPos);
+        m_onScriptedTargetReachedCb = cb;
     }
 
     public void ResetToInitialPos()

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 3d4c8cf364a866544b0cd82917439e05
-timeCreated: 1478952529
+timeCreated: 1480148618
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -78,9 +78,9 @@ TextureImporter:
       name: videoButtons_1
       rect:
         serializedVersion: 2
-        x: 215
+        x: 201
         y: 86
-        width: 138
+        width: 153
         height: 62
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -104,9 +104,9 @@ TextureImporter:
       name: videoButtons_3
       rect:
         serializedVersion: 2
-        x: 214
+        x: 201
         y: 13
-        width: 139
+        width: 152
         height: 66
       alignment: 0
       pivot: {x: 0.5, y: 0.5}

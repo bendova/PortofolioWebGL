@@ -149,7 +149,7 @@ public class WebGLMovieTexture
 	{
 		get
 		{
-			return WebGLMovieTextureTime(m_Instance);
+            return GetSafeNan(WebGLMovieTextureTime(m_Instance));
 		}
 	}
 
@@ -157,9 +157,18 @@ public class WebGLMovieTexture
 	{
 		get
 		{
-			return WebGLMovieTextureDuration(m_Instance);
+            return GetSafeNan(WebGLMovieTextureDuration(m_Instance));
 		}
 	}    
+
+    private float GetSafeNan(float value)
+    {
+        if (float.IsNaN(value))
+        {
+            return 0.0f;
+        }
+        return value;
+    }
 
 	static public implicit operator Texture2D(WebGLMovieTexture tex)
     {

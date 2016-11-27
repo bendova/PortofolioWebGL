@@ -3,11 +3,16 @@ var FileOpener =
 	FileOpenPdf: function(url)
 	{
 		var strUrl = Pointer_stringify(url);
-		var win = window.open(strUrl, "_blank");
-		if(win != null)
+		var OpenWindow = function()
 		{
-			win.focus();
-		}
+			var win = window.open(strUrl, "_blank");
+			if(win != null)
+			{
+				win.focus();
+			}
+			document.getElementById('canvas').removeEventListener('click', OpenWindow);
+		};
+		document.getElementById('canvas').addEventListener('click', OpenWindow, false);
 	}
 };
 mergeInto(LibraryManager.library, FileOpener);

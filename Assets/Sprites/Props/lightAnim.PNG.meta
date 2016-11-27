@@ -282,7 +282,7 @@ TextureImporter:
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -327,7 +327,7 @@ TextureImporter:
   - buildTarget: WebGL
     maxTextureSize: 1024
     textureFormat: -1
-    compressionQuality: 50
+    compressionQuality: 100
     allowsAlphaSplitting: 0
   spriteSheet:
     serializedVersion: 2

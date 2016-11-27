@@ -4,6 +4,26 @@ using UnityEngine.SceneManagement;
 
 public class FlowController : MonoBehaviour
 {
+    void Awake()
+    {
+        SetQualitySettings();
+    }
+
+    private void SetQualitySettings()
+    {
+        const int V_SYNC_DISABLE = 0;
+        const int V_SYNC_60_FPS = 1;
+        const int V_SYNC_30_FPS = 2;
+
+#if UNITY_EDITOR
+        QualitySettings.vSyncCount = V_SYNC_DISABLE;
+#else
+        QualitySettings.vSyncCount = V_SYNC_DISABLE;
+#endif
+        Application.targetFrameRate = -1;
+        Application.runInBackground = true;
+    }
+
     public void GoToLandingPage()
     {
         SceneManager.LoadScene(SceneIds.LANDING_PAGE);

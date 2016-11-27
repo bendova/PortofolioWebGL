@@ -11,6 +11,8 @@ public class CategoriesGrid : MonoBehaviour
     public GridAnimationController m_portofolioGrid;
     public Animator m_animator;
 
+    private CategoryGridTile m_selectedTile = null;
+
     // Use this for initialization
     void Start()
     {
@@ -21,9 +23,11 @@ public class CategoriesGrid : MonoBehaviour
 
     private void InitGridTiles()
     {
-        foreach(CategoryGridTile tile in m_tiles)
+        for(int i = 0; i < m_tiles.Length; ++i)
         {
+            CategoryGridTile tile = m_tiles[i];
             tile.Reset();
+            tile.TileIndex = i;
             tile.EnableInput();
             tile.OnClickCb.AddListener((CategoryGridTile gridTile) =>
             {
@@ -58,6 +62,7 @@ public class CategoriesGrid : MonoBehaviour
         {
             it.BlockInput();
         }
+        m_selectedTile = tile;
         SwitchToGridView();
     }
 
@@ -70,15 +75,16 @@ public class CategoriesGrid : MonoBehaviour
 
     private void OnSwitchToGridViewAnimationFinished()
     {
-        if (m_thumbnails.Length > 0)
+        if (m_thumbnails.Length > m_selectedTile.TileIndex)
         {
-            m_thumbnails[0].SetAsSelected();
+            m_thumbnails[m_selectedTile.TileIndex].SetAsSelected();
         }
         m_portofolioGrid.Show_Landing();
     }
 
     private void SwitchToTileView()
     {
+        m_selectedTile = null;
         SetThumbnailsActive(false);
         SetTilesActive(true);
         m_portofolioGrid.Hide();

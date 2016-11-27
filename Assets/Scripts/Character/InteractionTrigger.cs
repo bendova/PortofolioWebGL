@@ -110,7 +110,6 @@ public class InteractionTrigger : MonoBehaviour
         if(InputUtils.IsLeftClickOnCollider(m_menuPageOpenCollider))
         {
             SetTargetInteraction(false);
-            SetMenuPageOpen(true);
             MovePlayerIntoPosition();
         }
     }
@@ -122,12 +121,16 @@ public class InteractionTrigger : MonoBehaviour
             SetMenuPageOpen(false);
         }
     }
-
+    
     private void MovePlayerIntoPosition()
     {
         if (m_playerCharController)
         {
-            m_playerCharController.ScriptedMoveToPos(m_interactionTarget.transform, m_interactionMenuPage.transform);
+            CharController.OnScriptedTargetReached onTargetReached = (() =>
+            {
+                SetMenuPageOpen(true);
+            });
+            m_playerCharController.ScriptedMoveToPos(m_interactionTarget.transform, m_interactionMenuPage.transform, onTargetReached);
             m_playerCharController.SetLookUpTarget(m_interactionMenuPage);
         }
     }

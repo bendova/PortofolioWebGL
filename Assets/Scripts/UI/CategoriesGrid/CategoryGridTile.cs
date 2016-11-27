@@ -16,6 +16,8 @@ public class CategoryGridTile : MonoBehaviour
     }
     public OnClickedEvent OnClickCb { get; set; }
 
+    public int TileIndex { get; set; }
+
     // Editor properties
     public Collider2D m_tileCollider;
     public Animator m_tileImageAnimator;

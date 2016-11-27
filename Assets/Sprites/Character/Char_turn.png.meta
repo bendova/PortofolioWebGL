@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 78c2f95c38c350e46a8bc6cfbf525d05
-timeCreated: 1465318768
+timeCreated: 1480172439
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -11,7 +11,7 @@ TextureImporter:
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -21,7 +21,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -41,19 +41,28 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 210
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  buildTargetSettings:
+  - buildTarget: WebGL
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: Char_turn_0
+    - serializedVersion: 2
+      name: Char_turn_0
       rect:
         serializedVersion: 2
         x: 155
@@ -63,7 +72,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Char_turn_1
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Char_turn_1
       rect:
         serializedVersion: 2
         x: 663
@@ -73,7 +85,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Char_turn_2
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Char_turn_2
       rect:
         serializedVersion: 2
         x: 1179
@@ -83,7 +98,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Char_turn_3
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Char_turn_3
       rect:
         serializedVersion: 2
         x: 1691
@@ -93,6 +111,9 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
