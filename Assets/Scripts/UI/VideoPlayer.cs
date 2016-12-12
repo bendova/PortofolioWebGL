@@ -12,6 +12,8 @@ public class VideoPlayer : MonoBehaviour
     public string m_videoPath;
     public Slider m_progressSlider;
     public Text m_timeText;
+    public VideoPlayerControls m_videoPlayerControls;
+    public Collider2D m_videoAreaCollider;
     public GameObject m_playButton;
     public GameObject m_pauseButton;
 
@@ -19,6 +21,7 @@ public class VideoPlayer : MonoBehaviour
 
     private bool m_isUserSeeking = false;
     private bool m_isStarted = false;
+    private bool m_autoHideControls = false;
 
     void Start ()
     {
@@ -75,12 +78,35 @@ public class VideoPlayer : MonoBehaviour
         m_videoTexture.Update();
         if(m_videoTexture.IsDone)
         {
+            m_autoHideControls = false;
             TogglePlayPauseButton(true);
         }
         if (m_videoTexture.IsReadyToPlay)
         {
             UpdateProgressSlider();
             UpdateVideoTime();
+        }
+        UpdateVideoPlayerControlsVisibility();
+    }
+
+    private void UpdateVideoPlayerControlsVisibility()
+    {
+        bool showControls = true;
+        if (m_autoHideControls)
+        {
+            if (!(m_isUserSeeking || InputUtils.IsMouseOverCollider(m_videoAreaCollider)))
+            {
+                showControls = false;
+            }
+        }
+
+        if(showControls)
+        {
+            m_videoPlayerControls.Show();
+        }
+        else
+        {
+            m_videoPlayerControls.Hide();
         }
     }
 
@@ -118,6 +144,7 @@ public class VideoPlayer : MonoBehaviour
         {
             m_videoTexture.Stop();
             TogglePlayPauseButton(true);
+            m_autoHideControls = false;
         }
     }
 
@@ -142,6 +169,7 @@ public class VideoPlayer : MonoBehaviour
         {
             m_videoTexture.Play();
             TogglePlayPauseButton(false);
+            m_autoHideControls = true;
         }
     }
 

@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ParallaxOption : MonoBehaviour {
-
+public class ParallaxOption : MonoBehaviour
+{
 	public bool moveParallax;
 
 	[SerializeField]

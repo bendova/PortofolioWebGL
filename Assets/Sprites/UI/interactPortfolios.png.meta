@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 3e4357fba3619824e89ec5096f0ea185
-timeCreated: 1480278275
+timeCreated: 1481458312
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -10,6 +10,8 @@ TextureImporter:
     21300006: interactPortfolios_2
     21300008: interactPortfolios_4
     21300010: interactPortfolios_5
+    21300012: interactPortfolios_6
+    21300014: interactPortfolios_7
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -62,22 +64,9 @@ TextureImporter:
       name: interactPortfolios_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 340
-        width: 256
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: interactPortfolios_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 255
-        width: 320
+        x: 4
+        y: 419
+        width: 276
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -88,9 +77,9 @@ TextureImporter:
       name: interactPortfolios_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 174
-        width: 466
+        x: 4
+        y: 349
+        width: 275
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -98,12 +87,12 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: interactPortfolios_4
+      name: interactPortfolios_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 91
-        width: 566
+        x: 4
+        y: 265
+        width: 316
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -114,9 +103,35 @@ TextureImporter:
       name: interactPortfolios_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 5
-        width: 602
+        x: 4
+        y: 182
+        width: 600
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: interactPortfolios_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 100
+        width: 600
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: interactPortfolios_7
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 15
+        width: 600
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}

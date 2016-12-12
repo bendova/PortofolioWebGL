@@ -16,6 +16,7 @@ public class CategoryGridThumbnail : MonoBehaviour
     }
     public OnClickedEvent OnClickCb { get; set; }
 
+    public CategoryGridTile.CategoryGridTileType m_tileType;
     public Collider2D m_collider;
     public SpriteRenderer m_spriteRenderer;
     public Animator m_imageAnimator;

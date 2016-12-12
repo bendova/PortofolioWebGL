@@ -4,6 +4,10 @@ using UnityEngine.SceneManagement;
 
 public class FlowController : MonoBehaviour
 {
+    public const int V_SYNC_DISABLE = 0;
+    public const int V_SYNC_60_FPS = 1;
+    public const int V_SYNC_30_FPS = 2;
+
     void Awake()
     {
         SetQualitySettings();
@@ -11,9 +15,6 @@ public class FlowController : MonoBehaviour
 
     private void SetQualitySettings()
     {
-        const int V_SYNC_DISABLE = 0;
-        const int V_SYNC_60_FPS = 1;
-        const int V_SYNC_30_FPS = 2;
 
 #if UNITY_EDITOR
         QualitySettings.vSyncCount = V_SYNC_DISABLE;

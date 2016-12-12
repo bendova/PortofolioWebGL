@@ -1,0 +1,423 @@
+fileFormatVersion: 2
+guid: b580115b4c368b74a96a5d25642afee3
+timeCreated: 1481461919
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: loadingAnim_0
+    21300002: loadingAnim_1
+    21300004: loadingAnim_2
+    21300006: loadingAnim_3
+    21300008: loadingAnim_4
+    21300010: loadingAnim_5
+    21300012: loadingAnim_6
+    21300014: loadingAnim_7
+    21300016: loadingAnim_8
+    21300018: loadingAnim_9
+    21300020: loadingAnim_10
+    21300022: loadingAnim_11
+    21300024: loadingAnim_12
+    21300026: loadingAnim_13
+    21300028: loadingAnim_14
+    21300030: loadingAnim_15
+    21300032: loadingAnim_16
+    21300034: loadingAnim_17
+    21300036: loadingAnim_18
+    21300038: loadingAnim_19
+    21300040: loadingAnim_20
+    21300042: loadingAnim_21
+    21300044: loadingAnim_22
+    21300046: loadingAnim_23
+    21300048: loadingAnim_24
+    21300050: loadingAnim_25
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 120
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: loadingAnim_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 161
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: loadingAnim_1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1200
+        width: 161
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: loadingAnim_2
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1200
+        width: 161
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: loadingAnim_3
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1200
+        width: 161
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: loadingAnim_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 161
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: loadingAnim_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1000
+        width: 161
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: loadingAnim_6
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1000
+        width: 161
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: loadingAnim_7
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1000
+        width: 161
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: loadingAnim_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 161
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: loadingAnim_9
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 800
+        width: 161
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: loadingAnim_10
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 800
+        width: 161
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: loadingAnim_11
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 800
+        width: 161
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: loadingAnim_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 161
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: loadingAnim_13
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 600
+        width: 161
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: loadingAnim_14
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 600
+        width: 161
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: loadingAnim_15
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 600
+        width: 161
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: loadingAnim_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 161
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: loadingAnim_17
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 400
+        width: 161
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: loadingAnim_18
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 400
+        width: 161
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: loadingAnim_19
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 400
+        width: 161
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: loadingAnim_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 161
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: loadingAnim_21
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 200
+        width: 161
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: loadingAnim_22
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 200
+        width: 161
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: loadingAnim_23
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 200
+        width: 161
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: loadingAnim_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 161
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: loadingAnim_25
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 161
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -25,6 +25,10 @@ public class PortofolioShowcaseController : MonoBehaviour
     public void HidePortofolio()
     {
         m_portofolioAnimator.SetBool("isShowing", false);
+    }
+
+    public void OnPortofolioHideAnimationFinished()
+    {
         m_categoriesGrid.Reset();
     }
 }

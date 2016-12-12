@@ -7,17 +7,26 @@ Marius:
 //5. Add a mouse parallax effect to the landing page. This still needs work.
 //6. Create a cinematic transition for the portofolio grid in the game scene.
 //7. Make the cv.pdf openable from the WebApp
-8. Portofolio grid
+//8. Portofolio grid
 	//8.1 Make the scripted transition for it work
 	//8.2 Make the fullscreen version work
 	//8.3 Integrate the new graphical assets
 	//8.4 Add the Portofolio Grid to the Landing page
-	8.5 Polish the Portofolio Grid
-	8.6 Polish the Categories Grid
+	//8.5 Polish the Portofolio Grid
+	//8.6 Polish the Categories Grid
 9. Fix the image ghosting effect that occurs on camera movement.
 10. Add functionality for the Contact page:
 	10.1 Copy to clipboard for fields such as email, phone number etc
 	//10.2 Message box that allows sending an email directly.
+	10.3 Polish the animation and interaction.
+//11. Category thumbnail images need to have a different "selected" animation (I've created the sprites, but because it's a prefab I cannot replace one image without replacing all of them)
+12.The "Choose a category" bubble needs to show the name of the current category when one is selected.(the sprites are in Sprites - Text - CategoryBubble)
+//13. The character needs to stop moving when it reaches the control page? (it moves when you write A/D:))
+//14. We need to remove the arrows and radio buttons from the personal work grid in the landing page
+15. Add the option to open the items from the grid in fullscreen.
+16. Make the buttons from the video player auto-hide.
+17. Display the web page loading animation.
+18. Display the scene loading animation. 
 
 Albu:
 //1. Add background animations to liven things up.
@@ -39,7 +48,21 @@ Albu:
 	//7.3 Bullet scroll
 	//7.4 Video player
 8. Add content to the Portofolio grid.
-9. Create graphics for the Contact page.
-
+	//8.1 Added new texts for all UI and Decals
+	//8.2 Added decal images and icons
+	8.3 Polish and put everything in place.
+//9. Create graphics for the Contact page.
+//10. Fixed buttons state and animations
+//11. Added the same pop-up animation to each menu (THIS DOESNT WORK FOR CONTACT PAGE YET - CAN YOU PLS CHECK?)
+//12. Polished landing page ( made category thumbnails smaller, grid bigger etc.)
+//13. Added 2048 images for the tree, grass and rocks (PLEASE LET ME KNOW IF THEY STILL SHOW BLURRY) - It's perfect now.
+14. Create interaction element for the contact page
+15. We need a loading animation to display while the web page is loading, before the "Made with Unity" logo is displayed.
+	This can be a simple sprite sheet that "Loading...".
+15. We also need a welcome animation for Landing Page.
+	Somethings that says "Welcome to Anca Albu's interactive portfolio!"
+16. Finally, we need something nice to show to the users reached the end of the game scene.
+	This would be displayed after the Contact menu page, and it could say something like "Thanks for playing!"
+	and have buttons for Home, Back to Start etc.
 
 

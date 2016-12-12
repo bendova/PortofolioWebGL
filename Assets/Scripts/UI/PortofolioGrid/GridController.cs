@@ -12,7 +12,6 @@ public class GridController : MonoBehaviour
     public float m_gridSpacingH = 10.0f;
 
     public GridContent m_content;
-
     public GridTileDataList m_gridTileDataList;
 
     private List<GridTile> m_gridTiles;

@@ -10,6 +10,7 @@ public class CategoriesGrid : MonoBehaviour
     public CategoryGridThumbnail[] m_thumbnails;
     public GridAnimationController m_portofolioGrid;
     public Animator m_animator;
+    public OwlSpeechBubble m_owlSpeechBubble;
 
     private CategoryGridTile m_selectedTile = null;
 
@@ -41,7 +42,6 @@ public class CategoriesGrid : MonoBehaviour
         int count = Mathf.Min(m_tiles.Length, m_thumbnails.Length);
         for(int i = 0; i < count; ++i)
         {
-            CategoryGridTile tile = m_tiles[i];
             CategoryGridThumbnail thumbnail = m_thumbnails[i];
             thumbnail.OnClickCb.AddListener((thumbnailParam) =>
             {
@@ -63,6 +63,7 @@ public class CategoriesGrid : MonoBehaviour
             it.BlockInput();
         }
         m_selectedTile = tile;
+        m_owlSpeechBubble.ShowSpeechBubbleForCategory(tile.m_tileType);
         SwitchToGridView();
     }
 
@@ -101,6 +102,7 @@ public class CategoriesGrid : MonoBehaviour
             }
         }
         m_portofolioGrid.m_gridController.SetGridTileDatas(thumbnail.m_portofolioGridTileDatas);
+        m_owlSpeechBubble.ShowSpeechBubbleForCategory(thumbnail.m_tileType);
     }
 
     private void SetTilesActive(bool active)
@@ -138,5 +140,6 @@ public class CategoriesGrid : MonoBehaviour
     public void Reset()
     {
         SwitchToTileView();
+        m_owlSpeechBubble.ShowSpeechBubbleDefault();
     }
 }

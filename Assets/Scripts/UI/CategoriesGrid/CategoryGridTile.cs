@@ -10,6 +10,15 @@ public class CategoryGridTile : MonoBehaviour
     private const string MOUSE_CLICK = "Clicked";
 
     [Serializable]
+    public enum CategoryGridTileType
+    {
+        UserInterface,
+        Decals,
+        PersonalWork
+    }
+    public CategoryGridTileType m_tileType;
+
+    [Serializable]
     public class OnClickedEvent : UnityEvent<CategoryGridTile>
     {
         public OnClickedEvent() { }

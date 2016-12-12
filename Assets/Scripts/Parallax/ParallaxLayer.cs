@@ -12,15 +12,17 @@ public class ParallaxLayer : MonoBehaviour {
 	private bool previousMoveParallax;
 	private ParallaxOption options;
 
-	void OnEnable() {
+	void Start()
+    {
 		GameObject gameCamera = GameObject.Find("Main Camera");
 		options = gameCamera.GetComponent<ParallaxOption>();
 		cameraTransform = gameCamera.transform;
 		previousCameraPosition = cameraTransform.position;
 	}
 
-	void Update () {
-		if(options.moveParallax && !previousMoveParallax)
+	void Update()
+    {
+        if (options.moveParallax && !previousMoveParallax)
 			previousCameraPosition = cameraTransform.position;
 
 		previousMoveParallax = options.moveParallax;
