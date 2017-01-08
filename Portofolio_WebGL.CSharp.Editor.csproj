@@ -106,5 +106,8 @@
     <Compile Include="Assets\Scripts\Editor\GridSubTileDataEditor.cs" />
     <Compile Include="Assets\Scripts\Editor\ParallaxOptionEditor.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Shaders\Glass.shader" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

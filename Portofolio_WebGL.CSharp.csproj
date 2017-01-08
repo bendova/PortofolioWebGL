@@ -74,9 +74,9 @@
     <Compile Include="Assets\Scripts\Animation\categoryPressed.cs" />
     <Compile Include="Assets\Scripts\Character\BackgroundScroller.cs" />
     <Compile Include="Assets\Scripts\Character\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\Character\CharCameraController.cs" />
     <Compile Include="Assets\Scripts\Character\CharController.cs" />
     <Compile Include="Assets\Scripts\Character\InteractionTrigger.cs" />
-    <Compile Include="Assets\Scripts\Character\ScriptedCameraMovement.cs" />
     <Compile Include="Assets\Scripts\Character\SimpleAnimationTrigger.cs" />
     <Compile Include="Assets\Scripts\Main\FlowController.cs" />
     <Compile Include="Assets\Scripts\Main\OpenCvPdf.cs" />
@@ -95,6 +95,7 @@
     <Compile Include="Assets\Scripts\UI\CategoriesGrid\CategoryGridTile.cs" />
     <Compile Include="Assets\Scripts\UI\ContactFeedbackController.cs" />
     <Compile Include="Assets\Scripts\UI\ContactPage.cs" />
+    <Compile Include="Assets\Scripts\UI\ContactPageAnimationController.cs" />
     <Compile Include="Assets\Scripts\UI\OwlSpeechBubble.cs" />
     <Compile Include="Assets\Scripts\UI\PortofolioGrid\GridAnimationController.cs" />
     <Compile Include="Assets\Scripts\UI\PortofolioGrid\GridContent.cs" />
@@ -113,6 +114,9 @@
     <Compile Include="Assets\Scripts\Utils\FpsCounter.cs" />
     <Compile Include="Assets\Scripts\Utils\InputUtils.cs" />
     <Compile Include="Assets\Scripts\Utils\PlayerUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Shaders\Glass.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
