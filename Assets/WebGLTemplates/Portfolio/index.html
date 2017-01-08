@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>%UNITY_WEB_NAME%</title>
+		<link rel="stylesheet" href="TemplateData/style.css">
+		<link rel="shortcut icon" href="TemplateData/Assets/favicon.png" />
+		<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+		<script type="text/javascript" src="TemplateData/TweenJS/CSSPlugin.js"></script>
+		<script type="text/javascript" src="TemplateData/TweenJS/easeljs-0.8.2.min.js"></script>
+		<script type="text/javascript" src="TemplateData/TweenJS/tweenjs-0.6.2.min.js"></script>
+		<script type="text/javascript" src="TemplateData/TweenJS/webgl-0.8.2.min.js"></script>
+		<script type="text/javascript" src="TemplateData/UnityProgress.js"></script>
+		<style>
+			html, body 
+			{
+				width: 100%;
+				height: 100%;
+				padding: 0;
+				margin: 0;
+				overflow: hidden;
+			}
+
+			#canvas 
+			{
+				width: 100%;
+				height: 100%;
+				touch-action: none;
+				-ms-touch-action: none;
+			}
+		</style>
+	</head>
+	<body class="template">
+		<div id="loadingBg"> <img src="TemplateData/Assets/loadingPageBg.png" width="100%" height="100%"/> </div>
+		<div id="loadingBox">
+			<div id="loadingAnimation"> <img src="TemplateData/Assets/Loading.gif" width="200px" height="150px"/> </div>
+			<div id="progressBar"></div>
+			<p id="loadingInfo">Please wait...</p>
+		</div>
+		<canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="%UNITY_HEIGHT%px" width="%UNITY_WIDTH%px"></canvas>
+		%UNITY_WEBGL_LOADER_GLUE%
+	</body>
+</html>
