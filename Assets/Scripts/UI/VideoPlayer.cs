@@ -249,6 +249,7 @@ public class VideoPlayer : MonoBehaviour
     {
         m_videoPath = videoPath;
         m_videoImagePoster.sprite = videoPoster;
+        m_autoHideControls = false;
         if (m_isStarted)
         {
             Pause();
