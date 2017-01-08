@@ -8,6 +8,8 @@ namespace Assets.Plugins
         private WebGLMovieTexture m_movieTexture;
         private GameObject m_gameObject;
 
+        private bool m_isStopping = false;
+
         public WebGLStreamingVideoPlugin(string url, GameObject gameObject)
         {
             Url = "StreamingAssets/" + url;
@@ -18,7 +20,7 @@ namespace Assets.Plugins
             if (meshRenderer)
             {
                 m_movieTexture = new WebGLMovieTexture(Url);
-                meshRenderer.material.mainTexture = m_movieTexture;
+                meshRenderer.material.mainTexture = m_movieTexture.GetVideoTexture();
             }
         }
 
@@ -40,6 +42,8 @@ namespace Assets.Plugins
 
         public void Play()
         {
+            Debug.Log("Play() IsReadyToPlay: " + IsReadyToPlay);
+
             if (IsReadyToPlay)
             {
                 m_movieTexture.Play();
@@ -49,14 +53,26 @@ namespace Assets.Plugins
 
         public void Pause()
         {
+            Debug.Log("Pause()");
+
             m_movieTexture.Pause();
             _status = StreamingVideoStatus.Paused;
         }
 
         public void Stop()
         {
-            m_movieTexture.Seek(0.0f);
-            Pause();
+            Debug.Log("Stop()");
+
+            // We can't seek to 0.0f in this case,
+            // because for some mysterious reason that
+            // causes the video player to get stuck.
+            Seek(0.5f);
+            m_isStopping = true;
+        }
+
+        public void Dispose()
+        {
+            m_movieTexture.Dispose();
         }
 
         public bool IsDone
@@ -76,11 +92,21 @@ namespace Assets.Plugins
         public void Update()
         {
             m_movieTexture.Update();
+            if(m_isStopping)
+            {
+                if(IsReadyToPlay)
+                {
+                    Debug.Log("Update() stopping");
+
+                    m_isStopping = false;
+                    Pause();
+                }
+            }
             if (_status < StreamingVideoStatus.ReadyToPlay && IsReadyToPlay)
             {
                 _status = StreamingVideoStatus.ReadyToPlay;
             }
-            if (_status == StreamingVideoStatus.Playing && m_movieTexture.time == m_movieTexture.duration)
+            else if (_status == StreamingVideoStatus.Playing && m_movieTexture.hasEnded)
             {
                 _status = StreamingVideoStatus.Done;
             }
@@ -90,7 +116,8 @@ namespace Assets.Plugins
         {
             if(IsReadyToPlay)
             {
-                m_movieTexture.Seek(time);
+                float clampedTime = Mathf.Min(PluginMathUtils.GetSafeFloat(time), m_movieTexture.duration);
+                m_movieTexture.Seek(clampedTime);
             }
         }
     }

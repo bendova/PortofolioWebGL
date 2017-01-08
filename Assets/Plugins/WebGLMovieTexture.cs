@@ -8,6 +8,9 @@ public class WebGLMovieTexture
 	[DllImport("__Internal")]
 	private static extern int WebGLMovieTextureCreate (string url);
 
+    [DllImport("__Internal")]
+	private static extern int WebGLMovieTextureDispose (int video);
+
 	[DllImport("__Internal")]
 	private static extern void WebGLMovieTextureUpdate (int video, int texture);
 
@@ -37,12 +40,19 @@ public class WebGLMovieTexture
 
 	[DllImport("__Internal")]
 	private static extern float WebGLMovieTextureDuration (int video);
+
+    [DllImport("__Internal")]
+	private static extern bool WebGLMovieTextureHasEnded (int video);
 #else
-	private static int WebGLMovieTextureCreate (string url)
+    private static int WebGLMovieTextureCreate (string url)
 	{
 		throw new PlatformNotSupportedException("WebGLMovieTexture is only supported on WebGL.");
 	}
-	private static void WebGLMovieTextureUpdate (int video, int texture)
+    private static int WebGLMovieTextureDispose(int video)
+    {
+        throw new PlatformNotSupportedException("WebGLMovieTexture is only supported on WebGL.");
+    }
+    private static void WebGLMovieTextureUpdate (int video, int texture)
 	{
 		throw new PlatformNotSupportedException("WebGLMovieTexture is only supported on WebGL.");
 	}
@@ -82,17 +92,23 @@ public class WebGLMovieTexture
 	{
 		throw new PlatformNotSupportedException("WebGLMovieTexture is only supported on WebGL.");
 	}
+
+    private static bool WebGLMovieTextureHasEnded(int video)
+    {
+        throw new PlatformNotSupportedException("WebGLMovieTexture is only supported on WebGL.");
+    }
 #endif
-	Texture2D m_Texture;
-	int m_Instance; 
-	bool m_Loop;
+    private Texture2D m_Texture;
+	private int m_Instance; 
+	private bool m_Loop;
 
 	public WebGLMovieTexture (string url)
 	{
-		m_Instance = WebGLMovieTextureCreate(url);
-		m_Texture = new Texture2D(0, 0, TextureFormat.ARGB32, false);
-		m_Texture.wrapMode = TextureWrapMode.Clamp;		
-	}
+        m_Instance = WebGLMovieTextureCreate(url);
+
+        m_Texture = new Texture2D(0, 0, TextureFormat.RGBA32, false);
+		m_Texture.wrapMode = TextureWrapMode.Clamp;
+    }
 
 	public void Update()
 	{
@@ -100,13 +116,18 @@ public class WebGLMovieTexture
 		var height = WebGLMovieTextureHeight(m_Instance);
 		if (width != m_Texture.width || height != m_Texture.height)
 		{
-			m_Texture.Resize(width, height, TextureFormat.ARGB32, false);
-			m_Texture.Apply();
+            m_Texture.Resize(width, height, TextureFormat.RGBA32, false);
+            m_Texture.Apply();
 		}
-		WebGLMovieTextureUpdate(m_Instance, m_Texture.GetNativeTextureID());
-	}
+        WebGLMovieTextureUpdate(m_Instance, m_Texture.GetNativeTexturePtr().ToInt32());
+    }
 
-	public void Play()
+    public void Dispose()
+    {
+        WebGLMovieTextureDispose(m_Instance);
+    }
+
+    public void Play()
 	{
 		WebGLMovieTexturePlay(m_Instance);
 	}
@@ -118,7 +139,7 @@ public class WebGLMovieTexture
 
 	public void Seek(float t)
 	{
-		WebGLMovieTextureSeek(m_Instance, t);
+        WebGLMovieTextureSeek(m_Instance, t);
 	}
 
 	public bool loop
@@ -141,7 +162,7 @@ public class WebGLMovieTexture
 	{
 		get 
 		{
-			return WebGLMovieTextureIsReady(m_Instance);
+            return WebGLMovieTextureIsReady(m_Instance);
 		}
 	}
 
@@ -149,7 +170,7 @@ public class WebGLMovieTexture
 	{
 		get
 		{
-            return GetSafeNan(WebGLMovieTextureTime(m_Instance));
+            return PluginMathUtils.GetSafeFloat(WebGLMovieTextureTime(m_Instance));
 		}
 	}
 
@@ -157,21 +178,20 @@ public class WebGLMovieTexture
 	{
 		get
 		{
-            return GetSafeNan(WebGLMovieTextureDuration(m_Instance));
+            return PluginMathUtils.GetSafeFloat(WebGLMovieTextureDuration(m_Instance));
 		}
-	}    
+	}
 
-    private float GetSafeNan(float value)
+    public bool hasEnded
     {
-        if (float.IsNaN(value))
+        get
         {
-            return 0.0f;
+            return WebGLMovieTextureHasEnded(m_Instance);
         }
-        return value;
     }
 
-	static public implicit operator Texture2D(WebGLMovieTexture tex)
+    public Texture2D GetVideoTexture()
     {
-        return tex.m_Texture;
-    }	
+        return m_Texture;
+    }
 }

@@ -75,6 +75,19 @@ namespace Assets.Plugins
             m_www = new WWW(fullyQualifiedUrl);
         }
 
+        public void Dispose()
+        {
+            // nothing to do
+            if(m_www != null)
+            {
+                m_www.Dispose();
+            }
+            m_renderer.material.mainTexture = null;
+            m_audioSource.clip = null;
+            m_movieTexture = null;
+            m_audioSource = null;
+        }
+
         public void Play()
         {
             if (IsReadyToPlay)

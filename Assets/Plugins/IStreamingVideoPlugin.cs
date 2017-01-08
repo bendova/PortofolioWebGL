@@ -15,6 +15,7 @@ namespace Assets.Plugins
         float Progress { get; }
         float Duration { get; }
 
+        void Dispose();
         void Play();
         void Pause();
         void Stop();
