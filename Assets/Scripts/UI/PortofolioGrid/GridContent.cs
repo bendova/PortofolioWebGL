@@ -37,7 +37,7 @@ public class GridContent : MonoBehaviour
         m_imageContainer.SetActive(false);
         if (m_videoPlayer)
         {
-            m_videoPlayer.Stop();
+            m_videoPlayer.ClearVideo();
         }
     }
 
@@ -93,7 +93,7 @@ public class GridContent : MonoBehaviour
         m_videoContainer.SetActive(true);
         if(m_videoPlayer)
         {
-            m_videoPlayer.SetVideoPath(tileData.VideoPath);
+            m_videoPlayer.SetVideo(tileData.VideoPath, tileData.m_videoImagePoster);
         }
     }
 
@@ -113,6 +113,6 @@ public class GridContent : MonoBehaviour
 
     public void OnHide()
     {
-        m_videoPlayer.Stop();
+        m_videoPlayer.ClearVideo();
     }
 }

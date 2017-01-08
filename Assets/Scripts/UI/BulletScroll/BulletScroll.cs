@@ -50,6 +50,7 @@ public class BulletScroll : MonoBehaviour
             {
                 RemoveBullets(m_bullets.Count - count);
             }
+            ArrangeElements();
         }
         SelectBullet(0);
 
@@ -93,7 +94,6 @@ public class BulletScroll : MonoBehaviour
 
             m_bullets.Add(bulletObject);
         }
-        ArrangeBullets();
     }
 
     private float GetNewBulletPosX()
@@ -119,19 +119,41 @@ public class BulletScroll : MonoBehaviour
             GameObject.Destroy(bullet);
         }
         m_bullets.RemoveRange(startIndex, count);
-        ArrangeBullets();
     }
 
-    private void ArrangeBullets()
+    private void ArrangeElements()
     {
-        if(m_bullets.Count > 0)
+        ArrangeBulletsContainer();
+        ResizeRootContainer();
+    }
+    private void ArrangeBulletsContainer()
+    {
+        float totalBulletWidth = ComputeTotalBulletWidth();
+        Vector3 pos = m_bulletsContainer.transform.localPosition;
+        pos.x = -totalBulletWidth / 2.0f;
+        m_bulletsContainer.transform.localPosition = pos;
+    }
+
+    private float ComputeTotalBulletWidth()
+    {
+        float totalBulletWidth = 0.0f;
+        if (m_bullets.Count > 0)
         {
             float bulletWidth = (m_bullets[0].transform as RectTransform).rect.width;
-            float totalWidth = bulletWidth * m_bullets.Count + m_bulletSpacingH * (m_bullets.Count - 1);
-            Vector3 pos = m_bulletsContainer.transform.localPosition;
-            pos.x = -totalWidth / 2.0f;
-            m_bulletsContainer.transform.localPosition = pos;
+            totalBulletWidth = bulletWidth * m_bullets.Count + m_bulletSpacingH * (m_bullets.Count - 1);
         }
+        return totalBulletWidth;
+    }
+
+    private void ResizeRootContainer()
+    {
+        RectTransform containerTransform = (transform as RectTransform);
+        Vector2 oldSizeDelta = containerTransform.sizeDelta;
+        float buttonWidth = (m_leftButton.transform as RectTransform).rect.width;
+        float totalBulletWidth = ComputeTotalBulletWidth();
+        float newWidth = totalBulletWidth + 2 * (buttonWidth + m_bulletSpacingH);
+        Vector2 newSizeDelta = new Vector2(newWidth, oldSizeDelta.y);
+        containerTransform.sizeDelta = newSizeDelta;
     }
 
     private void SelectBullet(int index)

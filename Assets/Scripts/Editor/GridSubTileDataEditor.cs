@@ -8,6 +8,7 @@ public class SubTileDataEditor : Editor
     private SerializedProperty m_state;
     private SerializedProperty m_descriptionImage;
     private SerializedProperty m_videoPath;
+    private SerializedProperty m_videoImagePoster;
     private SerializedProperty m_image;
 
     void OnEnable()
@@ -15,6 +16,7 @@ public class SubTileDataEditor : Editor
         m_state = serializedObject.FindProperty("m_contentType");
         m_descriptionImage = serializedObject.FindProperty("m_descriptionImage");
         m_videoPath = serializedObject.FindProperty("m_videoPath");
+        m_videoImagePoster = serializedObject.FindProperty("m_videoImagePoster");
         m_image = serializedObject.FindProperty("m_image");
     }
 	
@@ -33,6 +35,7 @@ public class SubTileDataEditor : Editor
                 break;
             case GridSubTileData.GridContentType.Video:
                 EditorGUILayout.PropertyField(m_videoPath);
+                EditorGUILayout.PropertyField(m_videoImagePoster);
                 break;
         }
 

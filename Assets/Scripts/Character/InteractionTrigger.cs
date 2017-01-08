@@ -18,6 +18,7 @@ public class InteractionTrigger : MonoBehaviour
     private bool m_isPlayerInsideTrigger = false;
     private bool m_isMouseButtonActive = false;
     private bool m_isMenuPageOpen = false;
+    private bool m_canCloseMenuPage = true;
 
     void Start()
     {
@@ -118,7 +119,7 @@ public class InteractionTrigger : MonoBehaviour
     {
         if (Input.GetKeyDown("escape"))
         {
-            SetMenuPageOpen(false);
+            CloseMenuPage();
         }
     }
     
@@ -128,7 +129,7 @@ public class InteractionTrigger : MonoBehaviour
         {
             CharController.OnScriptedTargetReached onTargetReached = (() =>
             {
-                SetMenuPageOpen(true);
+                OpenMenuPage();
             });
             m_playerCharController.ScriptedMoveToPos(m_interactionTarget.transform, m_interactionMenuPage.transform, onTargetReached);
             m_playerCharController.SetLookUpTarget(m_interactionMenuPage);
@@ -146,6 +147,19 @@ public class InteractionTrigger : MonoBehaviour
 
     public void CloseMenuPage()
     {
-        SetMenuPageOpen(false);
+        if(m_canCloseMenuPage)
+        {
+            SetMenuPageOpen(false);
+        }
+    }
+
+    private void OpenMenuPage()
+    {
+        SetMenuPageOpen(true);
+    }
+
+    public void SetCanCloseMenuPage(bool canClose)
+    {
+        m_canCloseMenuPage = canClose;
     }
 }

@@ -25,18 +25,10 @@ public class GridSubTileData : MonoBehaviour
     [SerializeField]
     private string m_videoPath;
     public string VideoPath { get { return m_videoPath; } }
+    public Sprite m_videoImagePoster;
+    public Sprite VideoImagePoster { get { return m_videoImagePoster; } }
 
     [SerializeField]
     public Sprite m_image;
     public Sprite Image { get { return m_image; } }
-
-    // Use this for initialization
-    void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }

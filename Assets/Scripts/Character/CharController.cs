@@ -32,7 +32,7 @@ public class CharController : MonoBehaviour
     private Collider2D m_playerCollider;
     private float m_maxAngleForInView = 80.0f;
 
-    private ScriptedCameraMovement m_scriptedCameraMovement;
+    private CharCameraController m_charCameraMovement;
     private bool m_isInScriptedMove = false;
     private Vector3 m_scriptedPlayerMoveTarget;
     private Vector3 m_scriptedCameraMoveTarget;
@@ -45,7 +45,7 @@ public class CharController : MonoBehaviour
         m_rigidBody = GetComponent<Rigidbody2D>();
         m_renderer = GetComponent<SpriteRenderer>();
         m_playerCollider = GetComponent<Collider2D>();
-        m_scriptedCameraMovement = GetComponent<ScriptedCameraMovement>();
+        m_charCameraMovement = GetComponent<CharCameraController>();
     }
 
 	void FixedUpdate() 
@@ -103,7 +103,7 @@ public class CharController : MonoBehaviour
 
     private void OnScriptedMoveTargetReached()
     {
-        m_scriptedCameraMovement.SetTarget(m_scriptedCameraMoveTarget, m_onScriptedTargetReachedCb);
+        m_charCameraMovement.SetTarget(m_scriptedCameraMoveTarget, m_onScriptedTargetReachedCb);
     }
 
     private float CalculateMoveH()
@@ -291,6 +291,6 @@ public class CharController : MonoBehaviour
         m_scriptedMoveLeft = false;
         m_scriptedMoveRight = false;
         m_enableInputHandling = true;
-        m_scriptedCameraMovement.ResetToInitialPos();
+        m_charCameraMovement.ResetToInitialPos();
     }
 }

@@ -12,6 +12,7 @@ public class CategoryGridTile : MonoBehaviour
     [Serializable]
     public enum CategoryGridTileType
     {
+        Invalid,
         UserInterface,
         Decals,
         PersonalWork
@@ -97,7 +98,10 @@ public class CategoryGridTile : MonoBehaviour
     public void Reset()
     {
         SetAnimationMouseOver(false);
-        m_tileImageAnimator.SetTrigger(RESET);
+        if(m_tileImageAnimator.isInitialized)
+        {
+            m_tileImageAnimator.SetTrigger(RESET);
+        }
     }
 
     public void BlockInput()

@@ -137,9 +137,23 @@ public class CategoriesGrid : MonoBehaviour
         }
     }
 
-    public void Reset()
+    public void OnShowBegin()
+    {
+
+    }
+
+    public void OnShowFinished()
+    {
+        m_owlSpeechBubble.ShowSpeechBubbleChooseCategory();
+    }
+
+    public void OnHideBegin()
+    {
+        m_owlSpeechBubble.HideSpeechBubble();
+    }
+
+    public void OnHideFinished()
     {
         SwitchToTileView();
-        m_owlSpeechBubble.ShowSpeechBubbleDefault();
     }
 }

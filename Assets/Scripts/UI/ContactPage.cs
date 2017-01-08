@@ -23,6 +23,7 @@ public class ContactPage : MonoBehaviour
             ContactPage contact = gameObject.GetComponent<ContactPage>();
             if(contact)
             {
+                //contact.Invoke("TestMessageFailure", 2);
                 contact.Invoke("OnSendEmailMessageSuccess", 2);
             }
         }
@@ -39,17 +40,46 @@ public class ContactPage : MonoBehaviour
     public InputField m_textFieldMessage;
     public int m_minMessageLength = 16;
     public ContactFeedbackController m_feedback;
-    public Button m_sendButton;
+    public GameObject m_sendButton;
+    public GameObject m_closeButton;
+    public InteractionTrigger m_interactionTrigger;
 
     // Use this for initialization
-    void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    void Start()
+    {
+        m_sendButton.SetActive(true);
+        m_closeButton.SetActive(true);
+        EnableSendAndClose(true);
+    }
+
+    public void OnMenuPageOpening()
+    {
+        ClearTextFields();
+        m_sendButton.SetActive(true);
+        EnableSendAndClose(true);
+    }
+
+    public void OnMenuPageClosing()
+    {
+        m_feedback.ResetMessage();
+    }
+
+    private void EnableClose(bool enable)
+    {
+        SetButtonInteractable(m_closeButton, enable);
+        m_interactionTrigger.SetCanCloseMenuPage(enable);
+    }
+
+    private void EnableSend(bool enable)
+    {
+        SetButtonInteractable(m_sendButton, enable);
+    }
+
+    private void EnableSendAndClose(bool enable)
+    {
+        EnableSend(enable);
+        EnableClose(enable);
+    }
 
     public void SendEmailMessage()
     {
@@ -61,7 +91,7 @@ public class ContactPage : MonoBehaviour
             {
                 SendEmailMessage(gameObject.name, senderEmail, message);
                 ShowSendInProgress();
-                m_sendButton.interactable = false;
+                EnableSendAndClose(false);
             }
         }
     }
@@ -69,16 +99,20 @@ public class ContactPage : MonoBehaviour
     private void OnSendEmailMessageSuccess()
     {
         Debug.Log("OnSendEmailMessageSuccess()");
-        ClearTextFields();
         ShowSendSuccess();
-        Invoke("ResetMessageSentState", 60);
+        EnableClose(true);
+    }
+
+    private void TestMessageFailure()
+    {
+        OnSendEmailMessageFailed("This is a test error");
     }
 
     private void OnSendEmailMessageFailed(string error)
     {
         Debug.Log("OnSendEmailMessageFailed() error: " + error);
         ShowSendFailed();
-        ResetMessageFailedState();
+        EnableSendAndClose(true);
     }
 
     private bool ValidateEmail(string senderEmail)
@@ -118,7 +152,7 @@ public class ContactPage : MonoBehaviour
 
     private bool IsMessageValid(string message)
     {
-        return message.Length > m_minMessageLength;
+        return message.Length >= m_minMessageLength;
     }
 
     private void ShowSendInProgress()
@@ -142,14 +176,8 @@ public class ContactPage : MonoBehaviour
         m_textFieldMessage.text = "";
     }
 
-    private void ResetMessageSentState()
+    private void SetButtonInteractable(GameObject button, bool interactable)
     {
-        m_feedback.ResetMessage();
-        m_sendButton.interactable = true;
-    }
-
-    private void ResetMessageFailedState()
-    {
-        m_sendButton.interactable = true;
+        button.GetComponent<Button>().interactable = interactable;
     }
 }

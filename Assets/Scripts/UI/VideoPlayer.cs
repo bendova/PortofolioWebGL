@@ -16,10 +16,13 @@ public class VideoPlayer : MonoBehaviour
     public Collider2D m_videoAreaCollider;
     public GameObject m_playButton;
     public GameObject m_pauseButton;
+    public Image m_videoImagePoster;
 
     private IStreamingVideoPlugin m_videoTexture;
 
     private bool m_isUserSeeking = false;
+    private bool m_wasPlayingOnSeekBegin = false;
+    private bool m_playWhenReady = false;
     private bool m_isStarted = false;
     private bool m_autoHideControls = false;
 
@@ -31,24 +34,40 @@ public class VideoPlayer : MonoBehaviour
 
     private void Initialize()
     {
-        m_videoTexture = CreateNewVideoTexture(m_videoPath);
+        m_videoImagePoster.enabled = true;
+        CreateNewVideoTexture(m_videoPath);
         TogglePlayPauseButton(true);
         InitProgressSlider();
         InitVideoTime();
     }
 
-    private IStreamingVideoPlugin CreateNewVideoTexture(string videoPath)
+    private void CreateNewVideoTexture(string videoPath)
     {
-        IStreamingVideoPlugin videoTexture = null;
+        DisposeVideoTexture();
+
         if(videoPath.Length > 0)
         {
 #if UNITY_EDITOR || UNITY_STANDALONE || UNITY_WEBPLAYER
-            videoTexture = new NativeStreamingVideoPlugin(videoPath, gameObject);
+            m_videoTexture = new NativeStreamingVideoPlugin(videoPath, gameObject);
 #elif UNITY_WEBGL
-            videoTexture = new WebGLStreamingVideoPlugin(videoPath, gameObject);
+            m_videoTexture = new WebGLStreamingVideoPlugin(videoPath, gameObject);
 #endif
         }
-        return videoTexture;
+    }
+
+    public void OnDestroy()
+    {
+        DisposeVideoTexture();
+    }
+
+    private void DisposeVideoTexture()
+    {
+        if (m_videoTexture != null)
+        {
+            m_videoTexture.Dispose();
+            m_videoTexture = null;
+            Resources.UnloadUnusedAssets();
+        }
     }
 
     private void InitProgressSlider()
@@ -78,13 +97,17 @@ public class VideoPlayer : MonoBehaviour
         m_videoTexture.Update();
         if(m_videoTexture.IsDone)
         {
-            m_autoHideControls = false;
-            TogglePlayPauseButton(true);
+            Stop();
         }
         if (m_videoTexture.IsReadyToPlay)
         {
             UpdateProgressSlider();
             UpdateVideoTime();
+            if(m_playWhenReady)
+            {
+                m_playWhenReady = false;
+                Play();
+            }
         }
         UpdateVideoPlayerControlsVisibility();
     }
@@ -138,13 +161,15 @@ public class VideoPlayer : MonoBehaviour
         return text;
     }
 
-    public void Stop()
+    private void Stop()
     {
         if(m_videoTexture != null)
         {
             m_videoTexture.Stop();
+            m_videoImagePoster.enabled = true;
             TogglePlayPauseButton(true);
             m_autoHideControls = false;
+            m_playWhenReady = false;
         }
     }
 
@@ -163,17 +188,15 @@ public class VideoPlayer : MonoBehaviour
         }
 	}
 
-    public void Play()
+    private void Play()
     {
-        if(m_videoTexture != null)
-        {
-            m_videoTexture.Play();
-            TogglePlayPauseButton(false);
-            m_autoHideControls = true;
-        }
+        m_videoTexture.Play();
+        m_videoImagePoster.enabled = false;
+        TogglePlayPauseButton(false);
+        m_autoHideControls = true;
     }
 
-    public void Pause()
+    private void Pause()
     {
         if (m_videoTexture != null)
         {
@@ -184,15 +207,15 @@ public class VideoPlayer : MonoBehaviour
 
     public void OnUserSeekBegin()
     {
-        if (m_videoTexture == null)
+        if(!m_isUserSeeking)
         {
-            return;
-        }
-
-        if (m_videoTexture.IsReadyToPlay && !m_isUserSeeking)
-        {
-            m_isUserSeeking = true;
-            Pause();
+            if ((m_videoTexture != null) && m_videoTexture.IsReadyToPlay)
+            {
+                m_isUserSeeking = true;
+                m_playWhenReady = false;
+                m_wasPlayingOnSeekBegin = m_videoTexture.IsPlaying;
+                Pause();
+            }
         }
     }
 
@@ -215,20 +238,26 @@ public class VideoPlayer : MonoBehaviour
         if (m_isUserSeeking)
         {
             m_isUserSeeking = false;
-            Play();
+            if (m_videoTexture != null)
+            {
+                m_playWhenReady = m_wasPlayingOnSeekBegin;
+            }
         }
     }
 
-    public void SetVideoPath(string videoPath)
+    public void SetVideo(string videoPath, Sprite videoPoster)
     {
-        if(m_videoPath != videoPath)
+        m_videoPath = videoPath;
+        m_videoImagePoster.sprite = videoPoster;
+        if (m_isStarted)
         {
-            m_videoPath = videoPath;
-            if(m_isStarted)
-            {
-                Pause();
-                Initialize();
-            }
+            Pause();
+            Initialize();
         }
+    }
+
+    public void ClearVideo()
+    {
+        DisposeVideoTexture();
     }
 }
