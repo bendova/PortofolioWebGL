@@ -48,7 +48,6 @@ public class ContactPage : MonoBehaviour
     void Start()
     {
         m_sendButton.SetActive(true);
-        m_closeButton.SetActive(true);
         EnableSendAndClose(true);
     }
 
@@ -67,7 +66,10 @@ public class ContactPage : MonoBehaviour
     private void EnableClose(bool enable)
     {
         SetButtonInteractable(m_closeButton, enable);
-        m_interactionTrigger.SetCanCloseMenuPage(enable);
+        if(m_interactionTrigger)
+        {
+            m_interactionTrigger.SetCanCloseMenuPage(enable);
+        }
     }
 
     private void EnableSend(bool enable)
