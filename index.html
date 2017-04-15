@@ -12,6 +12,7 @@
 		<script type="text/javascript" src="TemplateData/TweenJS/tweenjs-0.6.2.min.js"></script>
 		<script type="text/javascript" src="TemplateData/TweenJS/webgl-0.8.2.min.js"></script>
 		<script type="text/javascript" src="TemplateData/UnityProgress.js"></script>
+		<script type="text/javascript" src="TemplateData/CanvasResize.js"></script>
 		<style>
 			html, body 
 			{
@@ -24,21 +25,63 @@
 
 			#canvas 
 			{
-				width: 100%;
-				height: 100%;
+				/*width: 100%;
+				height: 100%;*/
+				
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				margin: auto;
 				touch-action: none;
 				-ms-touch-action: none;
 			}
+			
+			div#canvasFrame
+			{
+				/* we control the visibility of this element from code */
+				display: none;
+				
+				touch-action: none;
+				-ms-touch-action: none;
+				
+				position: absolute;
+				margin: auto;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				width: 1920px;
+				height: 1080px;
+			}
+			
+			div#loadingScreen
+			{
+				position: relative;
+				width: 100%;
+				height: 100%;
+				z-index: 0;
+			}
+			
+			div#loadingBg
+			{
+				width: 100%;
+				height: 100%;
+			}
 		</style>
 	</head>
-	<body class="template">
-		<div id="loadingBg"> <img src="TemplateData/Assets/loadingPageBg.png" width="100%" height="100%"/> </div>
-		<div id="loadingBox">
-			<div id="loadingAnimation"> <img src="TemplateData/Assets/Loading.gif" width="200px" height="150px"/> </div>
-			<div id="progressBar"></div>
-			<p id="loadingInfo">Please wait...</p>
+	<body class="template" oncontextmenu="event.preventDefault()">
+		<div id="loadingScreen">
+			<div id="loadingBg"> <img src="TemplateData/Assets/loadingPageBg.png" width="100%" height="100%"/> </div>
+			<div id="loadingBox">
+				<div id="loadingAnimation"> <img src="TemplateData/Assets/Loading.gif" width="200px" height="150px"/> </div>
+				<div id="progressBar"></div>
+				<p id="loadingInfo">Please wait...</p>
+			</div>
 		</div>
-		<canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="1080px" width="1920px"></canvas>
+		<div id="canvasFrame"> <img src="TemplateData/Assets/canvasFrame.png" width="1920px" height="1080px"/> </div>
+		<canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" width="1920px" height="1080px"></canvas>
 		<script type='text/javascript'>
   var Module = {
     TOTAL_MEMORY: 268435456,
